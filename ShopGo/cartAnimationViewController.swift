@@ -35,7 +35,6 @@ class cartAnimationViewController: UIViewController {
             self.shopGoLabel.layer.opacity = 0
             UIView.animate(withDuration:0.5){
                 self.shopGoLabel.layer.opacity = 1
-                
             }
             
             
