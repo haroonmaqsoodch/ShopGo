@@ -13,6 +13,8 @@
 		2A0BD8382A688D4500A8A80E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A0BD8362A688D4500A8A80E /* Main.storyboard */; };
 		2A0BD83A2A688D4700A8A80E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A0BD8392A688D4700A8A80E /* Assets.xcassets */; };
 		2A0BD83D2A688D4700A8A80E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A0BD83B2A688D4700A8A80E /* LaunchScreen.storyboard */; };
+		2C124D752A6B9EC5001A209D /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C124D742A6B9EC5001A209D /* OTPViewController.swift */; };
+		2C124D772A6B9EDF001A209D /* OTPStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C124D762A6B9EDF001A209D /* OTPStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2A0BD8392A688D4700A8A80E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A0BD83C2A688D4700A8A80E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A0BD83E2A688D4700A8A80E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C124D742A6B9EC5001A209D /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		2C124D762A6B9EDF001A209D /* OTPStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OTPStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		2A0BD82F2A688D4500A8A80E /* ShopGo */ = {
 			isa = PBXGroup;
 			children = (
+				2C124D732A6B9E39001A209D /* OTPViewController+Storyboard */,
 				2A0BD8302A688D4500A8A80E /* AppDelegate.swift */,
 				2A0BD8322A688D4500A8A80E /* SceneDelegate.swift */,
 				2A0BD8342A688D4500A8A80E /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				2A0BD83E2A688D4700A8A80E /* Info.plist */,
 			);
 			path = ShopGo;
+			sourceTree = "<group>";
+		};
+		2C124D732A6B9E39001A209D /* OTPViewController+Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2C124D742A6B9EC5001A209D /* OTPViewController.swift */,
+				2C124D762A6B9EDF001A209D /* OTPStoryboard.storyboard */,
+			);
+			path = "OTPViewController+Storyboard";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +142,7 @@
 				2A0BD83D2A688D4700A8A80E /* LaunchScreen.storyboard in Resources */,
 				2A0BD83A2A688D4700A8A80E /* Assets.xcassets in Resources */,
 				2A0BD8382A688D4500A8A80E /* Main.storyboard in Resources */,
+				2C124D772A6B9EDF001A209D /* OTPStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C124D752A6B9EC5001A209D /* OTPViewController.swift in Sources */,
 				2A0BD8352A688D4500A8A80E /* ViewController.swift in Sources */,
 				2A0BD8312A688D4500A8A80E /* AppDelegate.swift in Sources */,
 				2A0BD8332A688D4500A8A80E /* SceneDelegate.swift in Sources */,
