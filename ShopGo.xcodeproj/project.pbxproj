@@ -13,6 +13,8 @@
 		2A0BD8382A688D4500A8A80E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A0BD8362A688D4500A8A80E /* Main.storyboard */; };
 		2A0BD83A2A688D4700A8A80E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A0BD8392A688D4700A8A80E /* Assets.xcassets */; };
 		2A0BD83D2A688D4700A8A80E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A0BD83B2A688D4700A8A80E /* LaunchScreen.storyboard */; };
+		882D12BF2A6C8D3300546A99 /* cart Animation Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882D12BE2A6C8D3200546A99 /* cart Animation Storyboard.storyboard */; };
+		882D12C12A6C8D7100546A99 /* cartAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882D12C02A6C8D7100546A99 /* cartAnimationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2A0BD8392A688D4700A8A80E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A0BD83C2A688D4700A8A80E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A0BD83E2A688D4700A8A80E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		882D12BE2A6C8D3200546A99 /* cart Animation Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "cart Animation Storyboard.storyboard"; sourceTree = "<group>"; };
+		882D12C02A6C8D7100546A99 /* cartAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartAnimationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				2A0BD8392A688D4700A8A80E /* Assets.xcassets */,
 				2A0BD83B2A688D4700A8A80E /* LaunchScreen.storyboard */,
 				2A0BD83E2A688D4700A8A80E /* Info.plist */,
+				882D12BE2A6C8D3200546A99 /* cart Animation Storyboard.storyboard */,
+				882D12C02A6C8D7100546A99 /* cartAnimationViewController.swift */,
 			);
 			path = ShopGo;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				2A0BD83D2A688D4700A8A80E /* LaunchScreen.storyboard in Resources */,
 				2A0BD83A2A688D4700A8A80E /* Assets.xcassets in Resources */,
+				882D12BF2A6C8D3300546A99 /* cart Animation Storyboard.storyboard in Resources */,
 				2A0BD8382A688D4500A8A80E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +148,7 @@
 				2A0BD8352A688D4500A8A80E /* ViewController.swift in Sources */,
 				2A0BD8312A688D4500A8A80E /* AppDelegate.swift in Sources */,
 				2A0BD8332A688D4500A8A80E /* SceneDelegate.swift in Sources */,
+				882D12C12A6C8D7100546A99 /* cartAnimationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
