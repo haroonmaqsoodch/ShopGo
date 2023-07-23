@@ -20,8 +20,8 @@ class cartAnimationViewController: UIViewController {
     }
     
     func animationImage(){
-        let x = CATransform3DTranslate(CATransform3DIdentity,0,0,0)
-        cartImage.layer.transform = x
+        let y = CATransform3DTranslate(CATransform3DIdentity,0,0,0)
+        cartImage.layer.transform = y
         UIView.animate(withDuration:2.0){
                self.cartImage.layer.transform = CATransform3DTranslate(CATransform3DIdentity,400,0,0)
         }
