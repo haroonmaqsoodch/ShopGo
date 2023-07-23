@@ -15,6 +15,7 @@
 		2A0BD83D2A688D4700A8A80E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A0BD83B2A688D4700A8A80E /* LaunchScreen.storyboard */; };
 		2C124D752A6B9EC5001A209D /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C124D742A6B9EC5001A209D /* OTPViewController.swift */; };
 		2C124D772A6B9EDF001A209D /* OTPStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C124D762A6B9EDF001A209D /* OTPStoryboard.storyboard */; };
+		2C3354672A6C737E000AAA8D /* OTPTextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3354662A6C737E000AAA8D /* OTPTextFieldExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		2A0BD83E2A688D4700A8A80E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C124D742A6B9EC5001A209D /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
 		2C124D762A6B9EDF001A209D /* OTPStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OTPStoryboard.storyboard; sourceTree = "<group>"; };
+		2C3354662A6C737E000AAA8D /* OTPTextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextFieldExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				2C124D742A6B9EC5001A209D /* OTPViewController.swift */,
+				2C3354662A6C737E000AAA8D /* OTPTextFieldExtension.swift */,
 				2C124D762A6B9EDF001A209D /* OTPStoryboard.storyboard */,
 			);
 			path = "OTPViewController+Storyboard";
@@ -154,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C124D752A6B9EC5001A209D /* OTPViewController.swift in Sources */,
+				2C3354672A6C737E000AAA8D /* OTPTextFieldExtension.swift in Sources */,
 				2A0BD8352A688D4500A8A80E /* ViewController.swift in Sources */,
 				2A0BD8312A688D4500A8A80E /* AppDelegate.swift in Sources */,
 				2A0BD8332A688D4500A8A80E /* SceneDelegate.swift in Sources */,
