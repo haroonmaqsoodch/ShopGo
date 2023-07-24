@@ -18,10 +18,6 @@ class CreateAccountViewController: UIViewController {
         setup()
     }
     
-    @objc func dismissMyKeyboard(){
-        view.endEditing(true)
-    }
-    
     func hideKeyboardOnTap() {
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(dismissMyKeyboard))
         view.addGestureRecognizer(tap)
@@ -34,5 +30,7 @@ class CreateAccountViewController: UIViewController {
         nextButton.layer.shadowOpacity = 0.3
     }
     
-    
+    @objc func dismissMyKeyboard(){
+        view.endEditing(true)
+    }
 }
