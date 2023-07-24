@@ -9,7 +9,6 @@ import UIKit
 
 class CreateAccountViewController: UIViewController {
     
-    
     @IBOutlet weak var nextButtonLayout: UIButton!
     
     @IBAction func nextButton(_ sender: Any) {
