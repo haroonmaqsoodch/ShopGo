@@ -1,26 +1,15 @@
 //
-//  cartAnimationViewController.swift
+//  cartAnimationExtenstion.swift
 //  ShopGo
 //
-//  Created by Abdul wali Latif on 7/22/23.
+//  Created by Abdul wali Latif on 7/24/23.
 //
 
 import UIKit
 
-class cartAnimationViewController: UIViewController {
+extension CartAnimationViewController {
     
-    @IBOutlet weak var cartImage: UIImageView!
-    
-    @IBOutlet weak var shopGoLabel: UILabel!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        shopGoLabel.isHidden = true
-        animationImage()
-        animationlabel()
-    }
-    
-    func animationImage(){
+   func animationImage(){
         let x = CATransform3DTranslate(CATransform3DIdentity,0,0,0)
         cartImage.layer.transform = x
         UIView.animate(withDuration:2.0){
