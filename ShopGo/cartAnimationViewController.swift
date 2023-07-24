@@ -13,7 +13,6 @@ class cartAnimationViewController: UIViewController {
     
     @IBOutlet weak var shopGoLabel: UILabel!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         shopGoLabel.isHidden = true
@@ -36,12 +35,6 @@ class cartAnimationViewController: UIViewController {
             UIView.animate(withDuration:0.5){
                 self.shopGoLabel.layer.opacity = 1
             }
-            
-            
-            
         }
-        
-        
     }
-
 }
