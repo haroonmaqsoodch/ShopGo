@@ -25,13 +25,6 @@ class SignupScreenViewController: UIViewController {
     }
     
     func loginButtonUI(){
-        loginOutlet.layer.borderWidth = 3
-        loginOutlet.layer.cornerRadius = 22
-        let redValue: CGFloat = 72.0 / 255.0
-        let greenValue: CGFloat = 78.0 / 255.0
-        let blueValue: CGFloat = 153.0 / 255.0
-        let customBorderColor = UIColor(red: redValue, green: greenValue, blue: blueValue, alpha: 1.0)
-        loginOutlet.layer.borderColor = customBorderColor.cgColor
         loginOutlet.layer.shadowColor = UIColor.black.cgColor
         loginOutlet.layer.shadowRadius = 5
         loginOutlet.layer.shadowOpacity = 0.5
@@ -41,7 +34,7 @@ class SignupScreenViewController: UIViewController {
     
     func createAccountButtonUI(){
         createAccountOutlet.layer.shadowColor = UIColor.black.cgColor
-        createAccountOutlet.layer.shadowRadius = 15
+        createAccountOutlet.layer.shadowRadius = 5
         createAccountOutlet.layer.shadowOpacity = 0.5
         createAccountOutlet.layer.shadowOffset = CGSize(width: 2.0, height: 2.0)
         createAccountOutlet.layer.masksToBounds = false
