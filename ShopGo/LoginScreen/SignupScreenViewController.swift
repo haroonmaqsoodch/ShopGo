@@ -9,7 +9,9 @@ import UIKit
 
 class SignupScreenViewController: UIViewController {
     
+    @IBOutlet weak var buttonView: UIView!
     @IBOutlet weak var shopGoImage: UIImageView!
+    
     @IBOutlet weak var createAccountOutlet: UIButton!
     @IBOutlet weak var loginOutlet: UIButton!
     @IBAction func createAccountButton(_ sender: Any) {
@@ -22,6 +24,7 @@ class SignupScreenViewController: UIViewController {
         super.viewDidLoad()
         createAccountButtonUI()
         loginButtonUI()
+        buttonViewUI()
     }
     
     func loginButtonUI(){
@@ -38,5 +41,14 @@ class SignupScreenViewController: UIViewController {
         createAccountOutlet.layer.shadowOpacity = 0.5
         createAccountOutlet.layer.shadowOffset = CGSize(width: 2.0, height: 2.0)
         createAccountOutlet.layer.masksToBounds = false
+    }
+    
+    func buttonViewUI(){
+        buttonView.layer.cornerRadius = 22
+        buttonView.layer.shadowColor = UIColor.black.cgColor
+        buttonView.layer.shadowRadius = 5
+        buttonView.layer.shadowOpacity = 0.5
+        buttonView.layer.shadowOffset = CGSize(width: 2.0, height: 2.0)
+        buttonView.layer.masksToBounds = false
     }
 }
