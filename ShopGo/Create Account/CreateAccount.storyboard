@@ -198,6 +198,9 @@
                                             </attributedString>
                                             <fontDescription key="subtitleFontDescription" type="system" weight="semibold" pointSize="23"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="loginButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="eEa-t9-zOw"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZSz-ZO-fqJ">
                                         <rect key="frame" x="36" y="502" width="321" height="55"/>
@@ -210,6 +213,9 @@
                                             <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="32"/>
                                             <color key="baseBackgroundColor" red="0.23921568630000001" green="0.2666666667" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="nextButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="5lQ-HF-QEs"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
@@ -265,7 +271,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="nextButton" destination="ZSz-ZO-fqJ" id="dQD-PP-GPk"/>
+                        <outlet property="nextButtonLayout" destination="ZSz-ZO-fqJ" id="JIV-TZ-bqg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
