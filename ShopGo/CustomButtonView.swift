@@ -6,7 +6,7 @@
 //
 
 import UIKit
-class customButtonView : UIView {
+class CustomButtonView : UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
