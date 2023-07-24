@@ -13,6 +13,14 @@
 		2A0BD8382A688D4500A8A80E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A0BD8362A688D4500A8A80E /* Main.storyboard */; };
 		2A0BD83A2A688D4700A8A80E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A0BD8392A688D4700A8A80E /* Assets.xcassets */; };
 		2A0BD83D2A688D4700A8A80E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A0BD83B2A688D4700A8A80E /* LaunchScreen.storyboard */; };
+		2AEC8AC02A6F2AB1003AAEC1 /* OTPTextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC8ABD2A6F2AB1003AAEC1 /* OTPTextFieldExtension.swift */; };
+		2AEC8AC12A6F2AB1003AAEC1 /* OTPStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AEC8ABE2A6F2AB1003AAEC1 /* OTPStoryboard.storyboard */; };
+		2AEC8AC22A6F2AB1003AAEC1 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC8ABF2A6F2AB1003AAEC1 /* OTPViewController.swift */; };
+		8C1D43942A6D29CE00DE5FF7 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D43932A6D29CE00DE5FF7 /* CustomButton.swift */; };
+		8C1D439A2A6D2D7100DE5FF7 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D43992A6D2D7100DE5FF7 /* TermsViewController.swift */; };
+		8C1D439C2A6EAA0000DE5FF7 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D439B2A6EA9FF00DE5FF7 /* CustomButtonView.swift */; };
+		8C1D439E2A6EFF6D00DE5FF7 /* TermsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D439D2A6EFF6D00DE5FF7 /* TermsExtension.swift */; };
+		8CE8B3822A6C5F0E00E46756 /* TermsStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE8B3802A6C5F0E00E46756 /* TermsStoryBoard.storyboard */; };
 		419346932A6C512900E85002 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419346922A6C512900E85002 /* CreateAccountViewController.swift */; };
 		419346952A6C514300E85002 /* CreateAccount.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 419346942A6C514300E85002 /* CreateAccount.storyboard */; };
 /* End PBXBuildFile section */
@@ -26,6 +34,14 @@
 		2A0BD8392A688D4700A8A80E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A0BD83C2A688D4700A8A80E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A0BD83E2A688D4700A8A80E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AEC8ABD2A6F2AB1003AAEC1 /* OTPTextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPTextFieldExtension.swift; sourceTree = "<group>"; };
+		2AEC8ABE2A6F2AB1003AAEC1 /* OTPStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OTPStoryboard.storyboard; sourceTree = "<group>"; };
+		2AEC8ABF2A6F2AB1003AAEC1 /* OTPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		8C1D43932A6D29CE00DE5FF7 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		8C1D43992A6D2D7100DE5FF7 /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		8C1D439B2A6EA9FF00DE5FF7 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		8C1D439D2A6EFF6D00DE5FF7 /* TermsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsExtension.swift; sourceTree = "<group>"; };
+		8CE8B3802A6C5F0E00E46756 /* TermsStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TermsStoryBoard.storyboard; sourceTree = "<group>"; };
 		419346922A6C512900E85002 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		419346942A6C514300E85002 /* CreateAccount.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateAccount.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,6 +78,10 @@
 			children = (
 				2A0BD8302A688D4500A8A80E /* AppDelegate.swift */,
 				2A0BD8322A688D4500A8A80E /* SceneDelegate.swift */,
+				2A8C35012A6F2AE5007B3456 /* Main */,
+				2A8C35002A6F2AD2007B3456 /* OTP */,
+				8CE8B37E2A6C5F0E00E46756 /* Terms&CondtionScreens */,
+				2A8C35022A6F2AF5007B3456 /* Custom Button */,
 				2A0BD8342A688D4500A8A80E /* ViewController.swift */,
 				2A0BD8362A688D4500A8A80E /* Main.storyboard */,
 				419346912A6C50F700E85002 /* Create Account */,
@@ -70,6 +90,44 @@
 				2A0BD83E2A688D4700A8A80E /* Info.plist */,
 			);
 			path = ShopGo;
+			sourceTree = "<group>";
+		};
+		2A8C35002A6F2AD2007B3456 /* OTP */ = {
+			isa = PBXGroup;
+			children = (
+				2AEC8ABE2A6F2AB1003AAEC1 /* OTPStoryboard.storyboard */,
+				2AEC8ABD2A6F2AB1003AAEC1 /* OTPTextFieldExtension.swift */,
+				2AEC8ABF2A6F2AB1003AAEC1 /* OTPViewController.swift */,
+			);
+			path = OTP;
+			sourceTree = "<group>";
+		};
+		2A8C35012A6F2AE5007B3456 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2A0BD8342A688D4500A8A80E /* ViewController.swift */,
+				2A0BD8362A688D4500A8A80E /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2A8C35022A6F2AF5007B3456 /* Custom Button */ = {
+			isa = PBXGroup;
+			children = (
+				8C1D43932A6D29CE00DE5FF7 /* CustomButton.swift */,
+				8C1D439B2A6EA9FF00DE5FF7 /* CustomButtonView.swift */,
+			);
+			path = "Custom Button";
+			sourceTree = "<group>";
+		};
+		8CE8B37E2A6C5F0E00E46756 /* Terms&CondtionScreens */ = {
+			isa = PBXGroup;
+			children = (
+				8CE8B3802A6C5F0E00E46756 /* TermsStoryBoard.storyboard */,
+				8C1D43992A6D2D7100DE5FF7 /* TermsViewController.swift */,
+				8C1D439D2A6EFF6D00DE5FF7 /* TermsExtension.swift */,
+			);
+			path = "Terms&CondtionScreens";
 			sourceTree = "<group>";
 		};
 		419346912A6C50F700E85002 /* Create Account */ = {
@@ -139,8 +197,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AEC8AC12A6F2AB1003AAEC1 /* OTPStoryboard.storyboard in Resources */,
 				419346952A6C514300E85002 /* CreateAccount.storyboard in Resources */,
 				2A0BD83D2A688D4700A8A80E /* LaunchScreen.storyboard in Resources */,
+				8CE8B3822A6C5F0E00E46756 /* TermsStoryBoard.storyboard in Resources */,
 				2A0BD83A2A688D4700A8A80E /* Assets.xcassets in Resources */,
 				2A0BD8382A688D4500A8A80E /* Main.storyboard in Resources */,
 			);
@@ -155,8 +215,14 @@
 			files = (
 				419346932A6C512900E85002 /* CreateAccountViewController.swift in Sources */,
 				2A0BD8352A688D4500A8A80E /* ViewController.swift in Sources */,
+				8C1D439E2A6EFF6D00DE5FF7 /* TermsExtension.swift in Sources */,
 				2A0BD8312A688D4500A8A80E /* AppDelegate.swift in Sources */,
+				2AEC8AC22A6F2AB1003AAEC1 /* OTPViewController.swift in Sources */,
 				2A0BD8332A688D4500A8A80E /* SceneDelegate.swift in Sources */,
+				8C1D439C2A6EAA0000DE5FF7 /* CustomButtonView.swift in Sources */,
+				8C1D43942A6D29CE00DE5FF7 /* CustomButton.swift in Sources */,
+				8C1D439A2A6D2D7100DE5FF7 /* TermsViewController.swift in Sources */,
+				2AEC8AC02A6F2AB1003AAEC1 /* OTPTextFieldExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

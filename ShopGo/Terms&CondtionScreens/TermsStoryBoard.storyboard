@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Terms View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="TermsViewController" id="Y6W-OH-hqX" customClass="TermsViewController" customModule="ShopGo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iDf-ad-6GR" customClass="CustomButton" customModule="ShopGo" customModuleProvider="target">
+                                <rect key="frame" x="79" y="674" width="272" height="45"/>
+                                <color key="backgroundColor" name="ButtonColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="272" id="IDx-fG-rX9"/>
+                                    <constraint firstAttribute="height" constant="45" id="g9L-Z9-Tur"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Next">
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="28"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QXf-tn-Pzx">
+                                <rect key="frame" x="63" y="274.33333333333331" width="304" height="135"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JEa-Qt-gXz">
+                                        <rect key="frame" x="82" y="88" width="144" height="35"/>
+                                        <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="G9E-VG-OZT"/>
+                                            <constraint firstAttribute="width" constant="144" id="H0O-kS-d1Q"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" imagePlacement="trailing" title="Read More" imagePadding="14" cornerStyle="capsule" titleAlignment="automatic">
+                                            <imageReference key="image" image="chevron.down" catalog="system" symbolScale="default"/>
+                                            <fontDescription key="titleFontDescription" type="system" weight="light" pointSize="15"/>
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="readMorePressed:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Is6-Ez-Yqy"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="co2-d8-Xn8">
+                                        <rect key="frame" x="8" y="8" width="288" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="j1Q-5d-R2L"/>
+                                        </constraints>
+                                        <string key="text">Lorem ipsum dolor sit amet. Est repudiandae minus id voluptatem enim sed exercitationem vero et odio provident ut doloremque dolorem aut inventore harum. Sed quibusdam vero At nihil exercitationem vel fugiat itaque. Lorem ipsum dolor sit amet
+</string>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                        <color key="textColor" systemColor="secondaryLabelColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="co2-d8-Xn8" firstAttribute="trailing" secondItem="QXf-tn-Pzx" secondAttribute="trailingMargin" id="8Ae-0e-HZV"/>
+                                    <constraint firstItem="co2-d8-Xn8" firstAttribute="top" secondItem="QXf-tn-Pzx" secondAttribute="top" constant="8" id="9j3-Tm-vkv"/>
+                                    <constraint firstItem="JEa-Qt-gXz" firstAttribute="top" secondItem="co2-d8-Xn8" secondAttribute="bottom" constant="10" id="HP8-Sd-tRX"/>
+                                    <constraint firstItem="co2-d8-Xn8" firstAttribute="top" secondItem="QXf-tn-Pzx" secondAttribute="topMargin" id="IwT-dl-2kA"/>
+                                    <constraint firstAttribute="width" constant="304" id="KEO-2E-VVz"/>
+                                    <constraint firstItem="co2-d8-Xn8" firstAttribute="centerX" secondItem="QXf-tn-Pzx" secondAttribute="centerX" id="WtU-HG-Fs8"/>
+                                    <constraint firstAttribute="bottom" secondItem="JEa-Qt-gXz" secondAttribute="bottom" constant="12" id="dsg-gb-iFM"/>
+                                    <constraint firstAttribute="trailing" secondItem="co2-d8-Xn8" secondAttribute="trailing" constant="8" id="fqn-VA-cuD"/>
+                                    <constraint firstItem="JEa-Qt-gXz" firstAttribute="centerX" secondItem="QXf-tn-Pzx" secondAttribute="centerX" constant="2" id="n02-Vo-3et"/>
+                                    <constraint firstItem="co2-d8-Xn8" firstAttribute="leading" secondItem="QXf-tn-Pzx" secondAttribute="leading" constant="8" id="qa1-NE-edj"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Already have an account?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sks-t7-vNq">
+                                <rect key="frame" x="103.00000000000001" y="745" width="224.33333333333337" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="Rpa-11-AbR"/>
+                                    <constraint firstAttribute="width" constant="224.33000000000001" id="Sfy-9j-xMj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" systemColor="secondaryLabelColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l3Y-2F-oXM">
+                                <rect key="frame" x="177.66666666666666" y="777" width="79.999999999999972" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="4bV-EU-xnP"/>
+                                    <constraint firstAttribute="height" constant="35" id="4k5-5d-avi"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Log in">
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="19"/>
+                                    <color key="baseForegroundColor" name="ButtonColor"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Terms &amp; Condition" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LCV-3m-enU">
+                                <rect key="frame" x="82" y="194" width="266" height="38.333333333333343"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38.329999999999998" id="Dzb-Ze-uMP"/>
+                                    <constraint firstAttribute="width" constant="266" id="TAu-0W-TRU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ShopGoLogo" translatesAutoresizingMaskIntoConstraints="NO" id="dcf-3p-LJr">
+                                <rect key="frame" x="75" y="67" width="280" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="aG6-1S-k7C"/>
+                                    <constraint firstAttribute="height" constant="90" id="voO-gX-Wfm"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="iDf-ad-6GR" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="2ey-65-BIV"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="l3Y-2F-oXM" secondAttribute="bottom" constant="86" id="3zm-EP-A5m"/>
+                            <constraint firstItem="LCV-3m-enU" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="6aZ-0s-fUd"/>
+                            <constraint firstItem="dcf-3p-LJr" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="8" id="Aa4-zo-u9f"/>
+                            <constraint firstItem="Sks-t7-vNq" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="RgH-c7-9T0"/>
+                            <constraint firstItem="l3Y-2F-oXM" firstAttribute="centerX" secondItem="Sks-t7-vNq" secondAttribute="centerX" constant="2.4999999999999432" id="YZd-o4-3mF"/>
+                            <constraint firstItem="LCV-3m-enU" firstAttribute="top" secondItem="dcf-3p-LJr" secondAttribute="bottom" constant="37" id="YzY-NS-R87"/>
+                            <constraint firstItem="QXf-tn-Pzx" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="dxr-1n-U2q"/>
+                            <constraint firstItem="iDf-ad-6GR" firstAttribute="top" relation="greaterThanOrEqual" secondItem="co2-d8-Xn8" secondAttribute="bottom" constant="40" id="eaN-pT-BM9"/>
+                            <constraint firstItem="dcf-3p-LJr" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="gYU-s5-t2C"/>
+                            <constraint firstItem="l3Y-2F-oXM" firstAttribute="top" secondItem="Sks-t7-vNq" secondAttribute="bottom" constant="8" id="hnV-57-5uS"/>
+                            <constraint firstItem="Sks-t7-vNq" firstAttribute="top" secondItem="iDf-ad-6GR" secondAttribute="bottom" constant="26" id="oGw-3k-tSO"/>
+                            <constraint firstItem="QXf-tn-Pzx" firstAttribute="top" secondItem="LCV-3m-enU" secondAttribute="bottom" constant="41.999999999999972" id="ooz-oT-EIo"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="logInButton" destination="l3Y-2F-oXM" id="GhY-IR-YKt"/>
+                        <outlet property="nextButton" destination="iDf-ad-6GR" id="AdB-DY-KWd"/>
+                        <outlet property="readMoreButton" destination="JEa-Qt-gXz" id="7xY-Td-Qv7"/>
+                        <outlet property="readMoreCentre" destination="n02-Vo-3et" id="xyf-BM-esO"/>
+                        <outlet property="shopGoLogo" destination="dcf-3p-LJr" id="8Cu-rA-dRg"/>
+                        <outlet property="termsLabel" destination="LCV-3m-enU" id="cay-DI-Fkh"/>
+                        <outlet property="termsView" destination="QXf-tn-Pzx" id="jjk-HI-MZ9"/>
+                        <outlet property="textLabel" destination="co2-d8-Xn8" id="mfU-qp-xsV"/>
+                        <outlet property="textLabelHeight" destination="j1Q-5d-R2L" id="3S1-2t-z1f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="295.81395348837208" y="-176.39484978540773"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ShopGoLogo" width="500" height="500"/>
+        <image name="chevron.down" catalog="system" width="128" height="70"/>
+        <namedColor name="ButtonColor">
+            <color red="0.23899999260902405" green="0.27099999785423279" blue="0.63899999856948853" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
