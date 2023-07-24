@@ -33,7 +33,8 @@ extension OTPViewController: UITextFieldDelegate {
                     }
                 }
                 
-            default: break
+            default:
+                break
             }
             
         } else {
@@ -51,7 +52,8 @@ extension OTPViewController: UITextFieldDelegate {
                     self.firstField.becomeFirstResponder()
                 }
                 
-            default: break
+            default:
+                break
             }
         }
         return newText.count <= 1

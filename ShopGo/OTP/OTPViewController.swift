@@ -10,6 +10,7 @@ import UIKit
 class OTPViewController: UIViewController {
     
     let addDelay: Double = 0.0
+    
     @IBOutlet weak var firstField: UITextField!
     @IBOutlet weak var secondField: UITextField!
     @IBOutlet weak var thirdField: UITextField!
