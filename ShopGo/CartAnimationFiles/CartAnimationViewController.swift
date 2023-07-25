@@ -9,7 +9,11 @@ import UIKit
 
 class CartAnimationViewController: UIViewController {
     
-    @IBOutlet weak var cartImage: UIImageView!
+    @IBOutlet weak var cartImage: UIImageView! {
+        didSet {
+            cartImage.image = UIImage(named: "cartImage")
+        }
+    }
     @IBOutlet weak var shopGoLabel: UILabel!
     
     override func viewDidLoad() {
