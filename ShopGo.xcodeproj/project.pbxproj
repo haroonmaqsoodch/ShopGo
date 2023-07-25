@@ -16,6 +16,9 @@
 		2AEC8AC02A6F2AB1003AAEC1 /* OTPTextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC8ABD2A6F2AB1003AAEC1 /* OTPTextFieldExtension.swift */; };
 		2AEC8AC12A6F2AB1003AAEC1 /* OTPStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AEC8ABE2A6F2AB1003AAEC1 /* OTPStoryboard.storyboard */; };
 		2AEC8AC22A6F2AB1003AAEC1 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC8ABF2A6F2AB1003AAEC1 /* OTPViewController.swift */; };
+		82F50B602A700738005BC279 /* LoginScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F50B5F2A700738005BC279 /* LoginScreen.storyboard */; };
+		82F50B632A70092D005BC279 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F50B622A70092D005BC279 /* LoginVC.swift */; };
+		82F50B652A700F29005BC279 /* TextField+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F50B642A700F29005BC279 /* TextField+extension.swift */; };
 		8C1D43942A6D29CE00DE5FF7 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D43932A6D29CE00DE5FF7 /* CustomButton.swift */; };
 		8C1D439A2A6D2D7100DE5FF7 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D43992A6D2D7100DE5FF7 /* TermsViewController.swift */; };
 		8C1D439C2A6EAA0000DE5FF7 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D439B2A6EA9FF00DE5FF7 /* CustomButtonView.swift */; };
@@ -35,6 +38,9 @@
 		2AEC8ABD2A6F2AB1003AAEC1 /* OTPTextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPTextFieldExtension.swift; sourceTree = "<group>"; };
 		2AEC8ABE2A6F2AB1003AAEC1 /* OTPStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OTPStoryboard.storyboard; sourceTree = "<group>"; };
 		2AEC8ABF2A6F2AB1003AAEC1 /* OTPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		82F50B5F2A700738005BC279 /* LoginScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginScreen.storyboard; sourceTree = "<group>"; };
+		82F50B622A70092D005BC279 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		82F50B642A700F29005BC279 /* TextField+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+extension.swift"; sourceTree = "<group>"; };
 		8C1D43932A6D29CE00DE5FF7 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		8C1D43992A6D2D7100DE5FF7 /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 		8C1D439B2A6EA9FF00DE5FF7 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
@@ -77,6 +83,7 @@
 				2A8C35012A6F2AE5007B3456 /* Main */,
 				2A8C35002A6F2AD2007B3456 /* OTP */,
 				8CE8B37E2A6C5F0E00E46756 /* Terms&CondtionScreens */,
+				82F50B612A7008F1005BC279 /* LoginScreen */,
 				2A8C35022A6F2AF5007B3456 /* Custom Button */,
 				2A0BD8392A688D4700A8A80E /* Assets.xcassets */,
 				2A0BD83B2A688D4700A8A80E /* LaunchScreen.storyboard */,
@@ -111,6 +118,16 @@
 				8C1D439B2A6EA9FF00DE5FF7 /* CustomButtonView.swift */,
 			);
 			path = "Custom Button";
+			sourceTree = "<group>";
+		};
+		82F50B612A7008F1005BC279 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				82F50B622A70092D005BC279 /* LoginVC.swift */,
+				82F50B642A700F29005BC279 /* TextField+extension.swift */,
+				82F50B5F2A700738005BC279 /* LoginScreen.storyboard */,
+			);
+			path = LoginScreen;
 			sourceTree = "<group>";
 		};
 		8CE8B37E2A6C5F0E00E46756 /* Terms&CondtionScreens */ = {
@@ -184,6 +201,7 @@
 				2AEC8AC12A6F2AB1003AAEC1 /* OTPStoryboard.storyboard in Resources */,
 				2A0BD83D2A688D4700A8A80E /* LaunchScreen.storyboard in Resources */,
 				8CE8B3822A6C5F0E00E46756 /* TermsStoryBoard.storyboard in Resources */,
+				82F50B602A700738005BC279 /* LoginScreen.storyboard in Resources */,
 				2A0BD83A2A688D4700A8A80E /* Assets.xcassets in Resources */,
 				2A0BD8382A688D4500A8A80E /* Main.storyboard in Resources */,
 			);
@@ -199,6 +217,8 @@
 				2A0BD8352A688D4500A8A80E /* ViewController.swift in Sources */,
 				8C1D439E2A6EFF6D00DE5FF7 /* TermsExtension.swift in Sources */,
 				2A0BD8312A688D4500A8A80E /* AppDelegate.swift in Sources */,
+				82F50B632A70092D005BC279 /* LoginVC.swift in Sources */,
+				82F50B652A700F29005BC279 /* TextField+extension.swift in Sources */,
 				2AEC8AC22A6F2AB1003AAEC1 /* OTPViewController.swift in Sources */,
 				2A0BD8332A688D4500A8A80E /* SceneDelegate.swift in Sources */,
 				8C1D439C2A6EAA0000DE5FF7 /* CustomButtonView.swift in Sources */,
