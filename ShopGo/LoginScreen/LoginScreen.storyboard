@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--LoginVC-->
+        <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="LoginVC" id="BYZ-38-t0r" customClass="LoginVC" customModule="ShopGo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginVC" id="BYZ-38-t0r" customClass="LoginViewController" customModule="ShopGo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -70,7 +70,7 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="logInButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wcr-1r-PPt"/>
+                                    <action selector="loginButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wcr-1r-PPt"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="3Vo-b0-m6C">
@@ -149,9 +149,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="logBtnLabel" destination="pWS-2h-OhE" id="JUr-Jg-MaA"/>
-                        <outlet property="passwordTxt" destination="yBh-dU-laB" id="AKV-Va-Ouj"/>
-                        <outlet property="userNameTxt" destination="WMP-VF-t6K" id="E69-Sz-cKV"/>
+                        <outlet property="loginButton" destination="pWS-2h-OhE" id="JUr-Jg-MaA"/>
+                        <outlet property="passwordTextField" destination="yBh-dU-laB" id="AKV-Va-Ouj"/>
+                        <outlet property="userNameTextField" destination="WMP-VF-t6K" id="E69-Sz-cKV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
