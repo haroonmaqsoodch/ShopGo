@@ -6,6 +6,7 @@
 //
 
 import UIKit
+
 extension UITextField {
     
     func iconInsideTextField(imageViewNamed: String) {
@@ -16,5 +17,5 @@ extension UITextField {
         leftView = imageViewContainerView
         leftViewMode = .always
         self.tintColor = .blue
-    }
+    }    
 }
