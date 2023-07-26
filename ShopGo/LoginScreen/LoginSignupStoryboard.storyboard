@@ -34,7 +34,7 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F2V-Z6-J7R" customClass="CustomButtonView" customModule="ShopGo" customModuleProvider="target">
-                                <rect key="frame" x="80" y="680" width="270" height="45"/>
+                                <rect key="frame" x="80" y="664" width="270" height="45"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="akm-jQ-JbE" customClass="CustomLoginInnerButton" customModule="ShopGo" customModuleProvider="target">
                                         <rect key="frame" x="1" y="3" width="268" height="39"/>
@@ -78,7 +78,7 @@
                             <constraint firstItem="b6i-Ue-ztM" firstAttribute="top" secondItem="bqL-fH-50a" secondAttribute="bottom" constant="100" id="MlO-h4-lRX"/>
                             <constraint firstItem="bqL-fH-50a" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="50" id="PIg-PZ-Erg"/>
                             <constraint firstItem="bqL-fH-50a" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="Unw-ze-tcj"/>
-                            <constraint firstItem="F2V-Z6-J7R" firstAttribute="top" secondItem="b6i-Ue-ztM" secondAttribute="bottom" constant="36" id="nuC-Rt-05s"/>
+                            <constraint firstItem="F2V-Z6-J7R" firstAttribute="top" secondItem="b6i-Ue-ztM" secondAttribute="bottom" constant="20" id="nuC-Rt-05s"/>
                         </constraints>
                     </view>
                     <connections>
