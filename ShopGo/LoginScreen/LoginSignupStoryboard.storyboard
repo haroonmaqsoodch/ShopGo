@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login SignupVC-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="LoginSignupVC" id="Y6W-OH-hqX" customClass="LoginSignupVC" customModule="ShopGo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b6i-Ue-ztM" customClass="CustomButton" customModule="ShopGo" customModuleProvider="target">
+                                <rect key="frame" x="80" y="599" width="270" height="45"/>
+                                <color key="backgroundColor" name="ButtonColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="cf6-lW-5NU"/>
+                                    <constraint firstAttribute="width" constant="270" id="vZ2-23-ugz"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Create Account ">
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="22"/>
+                                    <color key="baseForegroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="createAccountButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="aCJ-c8-5iW"/>
+                                    <action selector="createAccoutTap:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="VN0-Nu-Ff7"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F2V-Z6-J7R" customClass="CustomButtonView" customModule="ShopGo" customModuleProvider="target">
+                                <rect key="frame" x="80" y="680" width="270" height="45"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="akm-jQ-JbE">
+                                        <rect key="frame" x="1" y="3" width="268" height="39"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="268" id="6fK-w4-ki6"/>
+                                            <constraint firstAttribute="height" constant="39" id="J2S-Xa-0Q2"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Log in">
+                                            <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="22"/>
+                                            <color key="baseForegroundColor" red="0.23921570180000001" green="0.26666668059999998" blue="0.63921570780000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="LoginButtonTap:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="75P-K4-OKn"/>
+                                            <action selector="loginButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="eDy-Ru-gdF"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.29803922770000002" green="0.32941177490000001" blue="0.70980393890000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="akm-jQ-JbE" firstAttribute="centerY" secondItem="F2V-Z6-J7R" secondAttribute="centerY" id="8rw-1U-BVd"/>
+                                    <constraint firstAttribute="height" constant="45" id="9wN-VU-Aff"/>
+                                    <constraint firstAttribute="width" constant="270" id="GJI-oL-0Xt"/>
+                                    <constraint firstItem="akm-jQ-JbE" firstAttribute="centerX" secondItem="F2V-Z6-J7R" secondAttribute="centerX" id="RQ0-Ns-m9X"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cart" translatesAutoresizingMaskIntoConstraints="NO" id="bqL-fH-50a">
+                                <rect key="frame" x="34.666666666666657" y="109" width="361" height="390"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="iqo-bc-pbf"/>
+                                    <constraint firstAttribute="height" constant="390" id="sHe-Ge-Wte"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bqL-fH-50a" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="95o-Tu-RGj"/>
+                            <constraint firstItem="F2V-Z6-J7R" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="HQq-ii-cgm"/>
+                            <constraint firstItem="bqL-fH-50a" firstAttribute="centerX" secondItem="b6i-Ue-ztM" secondAttribute="centerX" id="Jmn-EK-3nB"/>
+                            <constraint firstItem="b6i-Ue-ztM" firstAttribute="top" secondItem="bqL-fH-50a" secondAttribute="bottom" constant="100" id="MlO-h4-lRX"/>
+                            <constraint firstItem="bqL-fH-50a" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="50" id="PIg-PZ-Erg"/>
+                            <constraint firstItem="bqL-fH-50a" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="Unw-ze-tcj"/>
+                            <constraint firstItem="F2V-Z6-J7R" firstAttribute="top" secondItem="b6i-Ue-ztM" secondAttribute="bottom" constant="36" id="nuC-Rt-05s"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonView" destination="F2V-Z6-J7R" id="TNM-AB-mfB"/>
+                        <outlet property="createButtonOutlet" destination="b6i-Ue-ztM" id="HGb-we-bFz"/>
+                        <outlet property="loginButtonOutlet" destination="akm-jQ-JbE" id="AL2-wf-7Po"/>
+                        <outlet property="shopGoImage" destination="bqL-fH-50a" id="6Y6-mq-6n3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="46.564885496183201" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cart" width="500" height="500"/>
+        <namedColor name="ButtonColor">
+            <color red="0.23899999260902405" green="0.27099999785423279" blue="0.63899999856948853" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
