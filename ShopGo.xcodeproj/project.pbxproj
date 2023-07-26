@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A014D0C2A71CBBB00C721C1 /* LoginScreen in Resources */ = {isa = PBXBuildFile; fileRef = 2A014D0B2A71CBBB00C721C1 /* LoginScreen */; };
 		2A014D0E2A71CBFC00C721C1 /* LoginSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A014D0D2A71CBFC00C721C1 /* LoginSignupViewController.swift */; };
 		2A014D122A71CC4200C721C1 /* CustomLoginInnerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A014D112A71CC4200C721C1 /* CustomLoginInnerButton.swift */; };
+		2A014D142A71CDD600C721C1 /* LoginScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A014D132A71CDD600C721C1 /* LoginScreen.storyboard */; };
+		2A014D162A71CDDE00C721C1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A014D152A71CDDE00C721C1 /* LoginViewController.swift */; };
+		2A014D182A71CDE600C721C1 /* TextField+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A014D172A71CDE600C721C1 /* TextField+extension.swift */; };
 		2A0BD8312A688D4500A8A80E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0BD8302A688D4500A8A80E /* AppDelegate.swift */; };
 		2A0BD8332A688D4500A8A80E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0BD8322A688D4500A8A80E /* SceneDelegate.swift */; };
 		2A0BD8352A688D4500A8A80E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0BD8342A688D4500A8A80E /* ViewController.swift */; };
@@ -30,10 +32,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2A014D0B2A71CBBB00C721C1 /* LoginScreen */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LoginScreen; sourceTree = "<group>"; };
 		2A014D0D2A71CBFC00C721C1 /* LoginSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupViewController.swift; sourceTree = "<group>"; };
 		2A014D0F2A71CBFF00C721C1 /* LoginSignupStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginSignupStoryboard.storyboard; sourceTree = "<group>"; };
 		2A014D112A71CC4200C721C1 /* CustomLoginInnerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoginInnerButton.swift; sourceTree = "<group>"; };
+		2A014D132A71CDD600C721C1 /* LoginScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginScreen.storyboard; sourceTree = "<group>"; };
+		2A014D152A71CDDE00C721C1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2A014D172A71CDE600C721C1 /* TextField+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TextField+extension.swift"; sourceTree = "<group>"; };
 		2A0BD82D2A688D4500A8A80E /* ShopGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A0BD8302A688D4500A8A80E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A0BD8322A688D4500A8A80E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +79,16 @@
 			path = LoginSignup;
 			sourceTree = "<group>";
 		};
+		2A014D192A71CE0400C721C1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2A014D152A71CDDE00C721C1 /* LoginViewController.swift */,
+				2A014D172A71CDE600C721C1 /* TextField+extension.swift */,
+				2A014D132A71CDD600C721C1 /* LoginScreen.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		2A0BD8242A688D4500A8A80E = {
 			isa = PBXGroup;
 			children = (
@@ -96,9 +110,9 @@
 			children = (
 				2A0BD8302A688D4500A8A80E /* AppDelegate.swift */,
 				2A0BD8322A688D4500A8A80E /* SceneDelegate.swift */,
+				2A014D192A71CE0400C721C1 /* Login */,
 				2A8C35012A6F2AE5007B3456 /* Main */,
 				2A8C35002A6F2AD2007B3456 /* OTP */,
-				2A014D0B2A71CBBB00C721C1 /* LoginScreen */,
 				8CE8B37E2A6C5F0E00E46756 /* Terms&CondtionScreens */,
 				2A8C35022A6F2AF5007B3456 /* Custom Button */,
 				2A014D102A71CC0B00C721C1 /* LoginSignup */,
@@ -218,11 +232,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AEC8AC12A6F2AB1003AAEC1 /* OTPStoryboard.storyboard in Resources */,
+				2A014D142A71CDD600C721C1 /* LoginScreen.storyboard in Resources */,
 				2A0BD83D2A688D4700A8A80E /* LaunchScreen.storyboard in Resources */,
 				8CE8B3822A6C5F0E00E46756 /* TermsStoryBoard.storyboard in Resources */,
 				2A0BD83A2A688D4700A8A80E /* Assets.xcassets in Resources */,
 				882D12BF2A6C8D3300546A99 /* CartAnimationStoryboard.storyboard in Resources */,
-				2A014D0C2A71CBBB00C721C1 /* LoginScreen in Resources */,
 				2A0BD8382A688D4500A8A80E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,10 +248,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A014D162A71CDDE00C721C1 /* LoginViewController.swift in Sources */,
 				2A0BD8352A688D4500A8A80E /* ViewController.swift in Sources */,
 				8C1D439E2A6EFF6D00DE5FF7 /* TermsExtension.swift in Sources */,
 				88355F292A6E95EF004A96A3 /* CartAnimationExtenstion.swift in Sources */,
 				2A0BD8312A688D4500A8A80E /* AppDelegate.swift in Sources */,
+				2A014D182A71CDE600C721C1 /* TextField+extension.swift in Sources */,
 				2A014D0E2A71CBFC00C721C1 /* LoginSignupViewController.swift in Sources */,
 				2AEC8AC22A6F2AB1003AAEC1 /* OTPViewController.swift in Sources */,
 				2A0BD8332A688D4500A8A80E /* SceneDelegate.swift in Sources */,
