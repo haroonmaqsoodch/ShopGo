@@ -7,9 +7,9 @@
 
 import UIKit
 
-extension LoginSignupVC {
+extension LoginSignupViewController {
     // function for radius of login button inside the view
-    func loginButtonRadius() {
+    func buttonCornerStyle() {
         loginButtonOutlet.layer.cornerRadius = 22
         loginButtonOutlet.layer.masksToBounds = true
     }

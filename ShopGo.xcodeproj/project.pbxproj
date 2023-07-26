@@ -21,7 +21,7 @@
 		8C1D439C2A6EAA0000DE5FF7 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D439B2A6EA9FF00DE5FF7 /* CustomButtonView.swift */; };
 		8C1D439E2A6EFF6D00DE5FF7 /* TermsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D439D2A6EFF6D00DE5FF7 /* TermsExtension.swift */; };
 		8C4431262A718460004B829C /* LoginSignupStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4431232A718460004B829C /* LoginSignupStoryboard.storyboard */; };
-		8C4431272A718460004B829C /* LoginSignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4431242A718460004B829C /* LoginSignupVC.swift */; };
+		8C4431272A718460004B829C /* LoginSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4431242A718460004B829C /* LoginSignupViewController.swift */; };
 		8C4431292A719600004B829C /* LoginSignupExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4431282A719600004B829C /* LoginSignupExtenstion.swift */; };
 		8CE8B3822A6C5F0E00E46756 /* TermsStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE8B3802A6C5F0E00E46756 /* TermsStoryBoard.storyboard */; };
 /* End PBXBuildFile section */
@@ -43,7 +43,7 @@
 		8C1D439B2A6EA9FF00DE5FF7 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		8C1D439D2A6EFF6D00DE5FF7 /* TermsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsExtension.swift; sourceTree = "<group>"; };
 		8C4431232A718460004B829C /* LoginSignupStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginSignupStoryboard.storyboard; sourceTree = "<group>"; };
-		8C4431242A718460004B829C /* LoginSignupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginSignupVC.swift; sourceTree = "<group>"; };
+		8C4431242A718460004B829C /* LoginSignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginSignupViewController.swift; sourceTree = "<group>"; };
 		8C4431282A719600004B829C /* LoginSignupExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupExtenstion.swift; sourceTree = "<group>"; };
 		8CE8B3802A6C5F0E00E46756 /* TermsStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TermsStoryBoard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,7 +125,7 @@
 			children = (
 				8C4431232A718460004B829C /* LoginSignupStoryboard.storyboard */,
 				8C4431282A719600004B829C /* LoginSignupExtenstion.swift */,
-				8C4431242A718460004B829C /* LoginSignupVC.swift */,
+				8C4431242A718460004B829C /* LoginSignupViewController.swift */,
 			);
 			path = LoginScreen;
 			sourceTree = "<group>";
@@ -219,7 +219,7 @@
 				8C1D439E2A6EFF6D00DE5FF7 /* TermsExtension.swift in Sources */,
 				2A0BD8312A688D4500A8A80E /* AppDelegate.swift in Sources */,
 				2AEC8AC22A6F2AB1003AAEC1 /* OTPViewController.swift in Sources */,
-				8C4431272A718460004B829C /* LoginSignupVC.swift in Sources */,
+				8C4431272A718460004B829C /* LoginSignupViewController.swift in Sources */,
 				2A0BD8332A688D4500A8A80E /* SceneDelegate.swift in Sources */,
 				8C1D439C2A6EAA0000DE5FF7 /* CustomButtonView.swift in Sources */,
 				8C1D43942A6D29CE00DE5FF7 /* CustomButton.swift in Sources */,

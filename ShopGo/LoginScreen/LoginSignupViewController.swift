@@ -7,7 +7,7 @@
 
 import UIKit
 
-class LoginSignupVC: UIViewController {
+class LoginSignupViewController: UIViewController {
     
     @IBOutlet weak var buttonView: UIView!
     @IBOutlet weak var shopGoImage: UIImageView!
@@ -16,7 +16,7 @@ class LoginSignupVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        loginButtonRadius()
+        buttonCornerStyle()
     }
     
     @IBAction func createAccoutTap(_ sender: Any) {
