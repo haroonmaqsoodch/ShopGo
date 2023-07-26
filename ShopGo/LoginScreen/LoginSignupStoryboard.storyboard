@@ -30,7 +30,6 @@
                                     <color key="baseForegroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="createAccountButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="aCJ-c8-5iW"/>
                                     <action selector="createAccoutTap:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="VN0-Nu-Ff7"/>
                                 </connections>
                             </button>
@@ -51,7 +50,6 @@
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="LoginButtonTap:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="75P-K4-OKn"/>
-                                            <action selector="loginButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="eDy-Ru-gdF"/>
                                         </connections>
                                     </button>
                                 </subviews>
