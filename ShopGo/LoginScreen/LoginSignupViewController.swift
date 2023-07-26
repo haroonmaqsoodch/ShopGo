@@ -16,7 +16,6 @@ class LoginSignupViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        buttonCornerStyle()
     }
     
     @IBAction func createAccoutTap(_ sender: Any) {
