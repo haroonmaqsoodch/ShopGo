@@ -22,4 +22,5 @@ class CartAnimationViewController: UIViewController {
         animationImage()
         animationlabel()
     }
+    
 }
