@@ -1,5 +1,5 @@
 //
-//  HomeScreenTopPartViewController.swift
+//  HomeViewController.swift
 //  ShopGo
 //
 //  Created by Muhammad Waleed on 27.07.23.
@@ -16,7 +16,7 @@ class HomeViewController: UIViewController {
     @IBAction func trendingButtonTapped(_ sender: Any) {
     }
     
-    @IBAction func menButtonTapped(_ sender: Any) {
+    @IBAction func burgerMenuButton(_ sender: Any) {
     }
     
     @IBAction func womenButtonTapped(_ sender: Any) {
