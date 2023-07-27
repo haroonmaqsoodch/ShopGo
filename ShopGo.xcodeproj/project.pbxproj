@@ -21,7 +21,6 @@
 		2AEC8AC02A6F2AB1003AAEC1 /* OTPTextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC8ABD2A6F2AB1003AAEC1 /* OTPTextFieldExtension.swift */; };
 		2AEC8AC12A6F2AB1003AAEC1 /* OTPStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AEC8ABE2A6F2AB1003AAEC1 /* OTPStoryboard.storyboard */; };
 		2AEC8AC22A6F2AB1003AAEC1 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC8ABF2A6F2AB1003AAEC1 /* OTPViewController.swift */; };
-		41175BB22A72D1ED00B89646 /* Textfield+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41175BB12A72D1ED00B89646 /* Textfield+extension.swift */; };
 		882D12BF2A6C8D3300546A99 /* CartAnimationStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882D12BE2A6C8D3200546A99 /* CartAnimationStoryboard.storyboard */; };
 		882D12C12A6C8D7100546A99 /* CartAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882D12C02A6C8D7100546A99 /* CartAnimationViewController.swift */; };
 		88355F292A6E95EF004A96A3 /* CartAnimationExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88355F282A6E95EF004A96A3 /* CartAnimationExtenstion.swift */; };
@@ -53,7 +52,6 @@
 		2AEC8ABD2A6F2AB1003AAEC1 /* OTPTextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPTextFieldExtension.swift; sourceTree = "<group>"; };
 		2AEC8ABE2A6F2AB1003AAEC1 /* OTPStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OTPStoryboard.storyboard; sourceTree = "<group>"; };
 		2AEC8ABF2A6F2AB1003AAEC1 /* OTPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
-		41175BB12A72D1ED00B89646 /* Textfield+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Textfield+extension.swift"; sourceTree = "<group>"; };
 		882D12BE2A6C8D3200546A99 /* CartAnimationStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CartAnimationStoryboard.storyboard; sourceTree = "<group>"; };
 		882D12C02A6C8D7100546A99 /* CartAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartAnimationViewController.swift; sourceTree = "<group>"; };
 		88355F282A6E95EF004A96A3 /* CartAnimationExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartAnimationExtenstion.swift; sourceTree = "<group>"; };
@@ -176,7 +174,6 @@
 			isa = PBXGroup;
 			children = (
 				8C935B852A7288F500162847 /* CreateAccount.storyboard */,
-				41175BB12A72D1ED00B89646 /* Textfield+extension.swift */,
 				8C935B872A72890100162847 /* CreateAccountViewController.swift */,
 				8C935B892A72890A00162847 /* Keyboard+extension.swift */,
 			);
@@ -272,7 +269,6 @@
 				2A014D162A71CDDE00C721C1 /* LoginViewController.swift in Sources */,
 				2A0BD8352A688D4500A8A80E /* ViewController.swift in Sources */,
 				8C1D439E2A6EFF6D00DE5FF7 /* TermsExtension.swift in Sources */,
-				41175BB22A72D1ED00B89646 /* Textfield+extension.swift in Sources */,
 				88355F292A6E95EF004A96A3 /* CartAnimationExtenstion.swift in Sources */,
 				8C935B882A72890100162847 /* CreateAccountViewController.swift in Sources */,
 				2A0BD8312A688D4500A8A80E /* AppDelegate.swift in Sources */,
