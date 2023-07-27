@@ -18,9 +18,6 @@ class CreateAccountViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         hideKeyboardOnTap()
-        passwordTextField.iconInsideTextField(imageViewNamed: "password")
-        usernameTextField.iconInsideTextField(imageViewNamed: "username")
-        emailTextField.iconInsideTextField(imageViewNamed: "email")
-        phoneTextField.iconInsideTextField(imageViewNamed: "phone")
+        configureTextfieldIcons()
     }
 }

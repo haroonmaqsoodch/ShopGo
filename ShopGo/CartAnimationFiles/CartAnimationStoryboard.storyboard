@@ -48,11 +48,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="576.33587786259545" y="-11.267605633802818"/>
+            <point key="canvasLocation" x="1503.0534351145038" y="-11.267605633802818"/>
         </scene>
     </scenes>
     <resources>
-        <image name="cart" width="612" height="612"/>
+        <image name="cart" width="500" height="500"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
