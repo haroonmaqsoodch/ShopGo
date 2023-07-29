@@ -34,3 +34,5 @@ class LoginViewController: UIViewController {
         UIApplication.shared.open(URL(string:"https://www.linkedin.com")! as URL , options: [:] , completionHandler: nil)       
     }
 }
+
+
