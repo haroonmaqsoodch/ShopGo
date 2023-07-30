@@ -21,12 +21,9 @@
 		2AEC8AC02A6F2AB1003AAEC1 /* OTPTextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC8ABD2A6F2AB1003AAEC1 /* OTPTextFieldExtension.swift */; };
 		2AEC8AC12A6F2AB1003AAEC1 /* OTPStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AEC8ABE2A6F2AB1003AAEC1 /* OTPStoryboard.storyboard */; };
 		2AEC8AC22A6F2AB1003AAEC1 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC8ABF2A6F2AB1003AAEC1 /* OTPViewController.swift */; };
-
 		2C7E155D2A7283D900ABF8D4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7E155C2A7283D900ABF8D4 /* HomeViewController.swift */; };
 		2C7E155F2A72840400ABF8D4 /* HomeScreenTopPartStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C7E155E2A72840400ABF8D4 /* HomeScreenTopPartStoryboard.storyboard */; };
-
 		41EB33E82A733A9000757FD1 /* Inputfield+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EB33E72A733A9000757FD1 /* Inputfield+extension.swift */; };
-
 		882D12BF2A6C8D3300546A99 /* CartAnimationStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882D12BE2A6C8D3200546A99 /* CartAnimationStoryboard.storyboard */; };
 		882D12C12A6C8D7100546A99 /* CartAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882D12C02A6C8D7100546A99 /* CartAnimationViewController.swift */; };
 		88355F292A6E95EF004A96A3 /* CartAnimationExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88355F282A6E95EF004A96A3 /* CartAnimationExtenstion.swift */; };
@@ -58,12 +55,9 @@
 		2AEC8ABD2A6F2AB1003AAEC1 /* OTPTextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPTextFieldExtension.swift; sourceTree = "<group>"; };
 		2AEC8ABE2A6F2AB1003AAEC1 /* OTPStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OTPStoryboard.storyboard; sourceTree = "<group>"; };
 		2AEC8ABF2A6F2AB1003AAEC1 /* OTPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
-
 		2C7E155C2A7283D900ABF8D4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2C7E155E2A72840400ABF8D4 /* HomeScreenTopPartStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeScreenTopPartStoryboard.storyboard; sourceTree = "<group>"; };
-
 		41EB33E72A733A9000757FD1 /* Inputfield+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Inputfield+extension.swift"; sourceTree = "<group>"; };
-
 		882D12BE2A6C8D3200546A99 /* CartAnimationStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CartAnimationStoryboard.storyboard; sourceTree = "<group>"; };
 		882D12C02A6C8D7100546A99 /* CartAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartAnimationViewController.swift; sourceTree = "<group>"; };
 		88355F282A6E95EF004A96A3 /* CartAnimationExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartAnimationExtenstion.swift; sourceTree = "<group>"; };
@@ -135,7 +129,7 @@
 				8CE8B37E2A6C5F0E00E46756 /* Terms&CondtionScreens */,
 				2A8C35022A6F2AF5007B3456 /* Custom Button */,
 				2A014D102A71CC0B00C721C1 /* LoginSignup */,
-				2C7E155B2A72839100ABF8D4 /* HomeScreenTopPart */,
+				2C7E155B2A72839100ABF8D4 /* HomeScreen */,
 				2A0BD8392A688D4700A8A80E /* Assets.xcassets */,
 				2A0BD83B2A688D4700A8A80E /* LaunchScreen.storyboard */,
 				2A0BD83E2A688D4700A8A80E /* Info.plist */,
@@ -173,13 +167,13 @@
 			path = "Custom Button";
 			sourceTree = "<group>";
 		};
-		2C7E155B2A72839100ABF8D4 /* HomeScreenTopPart */ = {
+		2C7E155B2A72839100ABF8D4 /* HomeScreen */ = {
 			isa = PBXGroup;
 			children = (
 				2C7E155C2A7283D900ABF8D4 /* HomeViewController.swift */,
 				2C7E155E2A72840400ABF8D4 /* HomeScreenTopPartStoryboard.storyboard */,
 			);
-			path = HomeScreenTopPart;
+			path = HomeScreen;
 			sourceTree = "<group>";
 		};
 		88355F2B2A6E9742004A96A3 /* CartAnimationFiles */ = {
