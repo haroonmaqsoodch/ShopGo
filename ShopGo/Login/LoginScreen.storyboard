@@ -87,7 +87,7 @@
                                 <color key="textColor" systemColor="systemGrayColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="53" translatesAutoresizingMaskIntoConstraints="NO" id="XrO-Da-XRm">
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="XrO-Da-XRm">
                                 <rect key="frame" x="96" y="710.33333333333337" width="238" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t1F-6l-NQ0">
@@ -97,19 +97,19 @@
                                             <constraint firstAttribute="width" constant="50" id="igq-hD-6XP"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" image="1"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="1 1"/>
                                         <connections>
                                             <action selector="facebookButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mzZ-EY-eHE"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zRI-ze-eYT">
-                                        <rect key="frame" x="103" y="0.0" width="32" height="50"/>
+                                        <rect key="frame" x="100" y="0.0" width="38" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="qcW-KH-bXS"/>
                                             <constraint firstAttribute="width" constant="50" id="sUo-yz-JIj"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" image="3"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="3 1"/>
                                         <connections>
                                             <action selector="twitterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zdu-Cs-J0S"/>
                                         </connections>
@@ -121,7 +121,7 @@
                                             <constraint firstAttribute="height" constant="50" id="ptM-0j-AQ5"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" image="2"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="2 1"/>
                                         <connections>
                                             <action selector="linkedinButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hxI-P4-k4O"/>
                                         </connections>
@@ -169,6 +169,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="facebookButton" destination="t1F-6l-NQ0" id="jhI-2t-SD8"/>
                         <outlet property="loginButton" destination="pWS-2h-OhE" id="JUr-Jg-MaA"/>
                         <outlet property="passwordTextField" destination="yBh-dU-laB" id="AKV-Va-Ouj"/>
                         <outlet property="userNameTextField" destination="WMP-VF-t6K" id="E69-Sz-cKV"/>
@@ -180,9 +181,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="1" width="50" height="50"/>
-        <image name="2" width="50" height="50"/>
-        <image name="3" width="50" height="50"/>
+        <image name="1 1" width="50" height="50"/>
+        <image name="2 1" width="50" height="50"/>
+        <image name="3 1" width="50" height="50"/>
         <image name="ShopGoLogo" width="500" height="500"/>
         <namedColor name="ButtonColor">
             <color red="0.23899999260902405" green="0.27099999785423279" blue="0.63899999856948853" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
