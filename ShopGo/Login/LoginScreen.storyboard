@@ -87,7 +87,7 @@
                                 <color key="textColor" systemColor="systemGrayColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="XrO-Da-XRm">
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="53" translatesAutoresizingMaskIntoConstraints="NO" id="XrO-Da-XRm">
                                 <rect key="frame" x="96" y="710.33333333333337" width="238" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t1F-6l-NQ0">
@@ -103,7 +103,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zRI-ze-eYT">
-                                        <rect key="frame" x="100" y="0.0" width="50" height="50"/>
+                                        <rect key="frame" x="103" y="0.0" width="32" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="qcW-KH-bXS"/>
                                             <constraint firstAttribute="width" constant="50" id="sUo-yz-JIj"/>
@@ -115,7 +115,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DxG-lP-9kS">
-                                        <rect key="frame" x="200" y="0.0" width="38" height="50"/>
+                                        <rect key="frame" x="188" y="0.0" width="50" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="50" id="VPQ-MJ-Aye"/>
                                             <constraint firstAttribute="height" constant="50" id="ptM-0j-AQ5"/>
@@ -123,7 +123,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="2"/>
                                         <connections>
-                                            <action selector="linkedInButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f28-Lx-YvF"/>
+                                            <action selector="linkedinButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hxI-P4-k4O"/>
                                         </connections>
                                     </button>
                                 </subviews>

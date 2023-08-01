@@ -23,15 +23,15 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func facebookButton(_ sender: Any) {
-        UIApplication.shared.open(URL(string:"https://www.facebook.com")! as URL , options: [:] , completionHandler: nil)
+        facebookButton()
     }
     
     @IBAction func twitterButton(_ sender: Any) {
-        UIApplication.shared.open(URL(string:"https://twitter.com/i/flow/login?redirect_after_login=%2F")! as URL , options: [:] , completionHandler: nil)
+        twitterButton()
     }
     
-    @IBAction func linkedInButton(_ sender: Any) {
-        UIApplication.shared.open(URL(string:"https://www.linkedin.com")! as URL , options: [:] , completionHandler: nil)       
+    @IBAction func linkedinButton(_ sender: Any) {
+        linkedInButton()
     }
 }
 
