@@ -19,8 +19,8 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        userNameTextField.iconInsideTextField(imageViewNamed: "Username")
-        passwordTextField.iconInsideTextField(imageViewNamed: "Password")
+        userNameTextField.iconInsideTextField(imageViewNamed: "UserName")
+        passwordTextField.iconInsideTextField(imageViewNamed: "PassWord")
         hideKeyboardOnTap()
         passwordTextField.delegate = self
     }
