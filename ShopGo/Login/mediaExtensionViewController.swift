@@ -15,9 +15,23 @@ extension LoginViewController {
     
     func twitterButton(){
         UIApplication.shared.open(URL(string:"https://twitter.com/i/flow/login?redirect_after_login=%2F")! as URL , options: [:] , completionHandler: nil)
+        twitterButtonOutlet.setImage(UIImage(named: "3"), for: .normal)
     }
     
     func linkedInButton(){
-      UIApplication.shared.open(URL(string:"https://www.linkedin.com")! as URL , options: [:] , completionHandler: nil)
-        }
+        UIApplication.shared.open(URL(string:"https://www.linkedin.com")! as URL , options: [:] , completionHandler: nil)
+        linkedInButtonOutlet.setImage(UIImage(named: "2"), for: .normal)
+    }
+    
+    func facebookButtonImage(){
+        facebookButtonOutlet.setImage(UIImage(named: "1"), for: .normal)
+    }
+    
+    func twitterButtonImage(){
+        twitterButtonOutlet.setImage(UIImage(named: "3"), for: .normal)
+    }
+    
+    func linkedInButtonImage(){
+        linkedInButtonOutlet.setImage(UIImage(named: "2"), for: .normal)
+    }
 }

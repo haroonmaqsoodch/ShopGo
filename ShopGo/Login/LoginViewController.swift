@@ -12,11 +12,17 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var userNameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var facebookButtonOutlet: UIButton!
+    @IBOutlet weak var twitterButtonOutlet: UIButton!
     
+    @IBOutlet weak var linkedInButtonOutlet: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         userNameTextField.iconInsideTextField(imageViewNamed: "username")
         passwordTextField.iconInsideTextField(imageViewNamed: "password")
+        linkedInButtonImage()
+        twitterButtonImage()
+        facebookButtonImage()
         }
     
     @IBAction func loginButtonAction(_ sender: UIButton) {
