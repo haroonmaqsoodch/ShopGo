@@ -49,6 +49,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1503.0534351145038" y="-11.267605633802818"/>
+ create-on-boarding-screen
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="qx5-wb-tFl">
@@ -67,10 +68,11 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wn2-s0-wve" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="576.33587786259545" y="-11.267605633802818"/>
+ develop
         </scene>
     </scenes>
     <resources>
-        <image name="cart" width="612" height="612"/>
+        <image name="cart" width="500" height="500"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
