@@ -23,8 +23,5 @@ class OnBoardingPageViewController : UIPageViewController, UIPageViewControllerD
         dataSource = self
         delegate = self
         configurePageControl()
-        if let firstViewController = pages.first {
-            setViewControllers([firstViewController], direction: .forward, animated: true)
-        }
     }
 }

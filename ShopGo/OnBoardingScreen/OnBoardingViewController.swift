@@ -14,8 +14,4 @@ class OnBoardingViewController : UIViewController {
             onBoardingImage.image = UIImage(named: "welcome2")
         }
     }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
 }

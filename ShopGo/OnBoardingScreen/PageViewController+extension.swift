@@ -51,6 +51,8 @@ extension OnBoardingPageViewController {
     
     // function to configure the page controller dots programmtically
     func configurePageControl(){
+        if let firstViewController = pages.first {
+            setViewControllers([firstViewController], direction: .forward, animated: true)}
         pageController = UIPageControl(frame: CGRect(x: 0, y: UIScreen.main.bounds.maxY - 80, width: UIScreen.main.bounds.width, height: 1))
         pageController.numberOfPages = pages.count
         pageController.currentPage = 0
