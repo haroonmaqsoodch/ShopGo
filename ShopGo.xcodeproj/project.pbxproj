@@ -35,6 +35,9 @@
 		8C935B882A72890100162847 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C935B872A72890100162847 /* CreateAccountViewController.swift */; };
 		8C935B8A2A72890A00162847 /* Keyboard+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C935B892A72890A00162847 /* Keyboard+extension.swift */; };
 		8CE8B3822A6C5F0E00E46756 /* TermsStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE8B3802A6C5F0E00E46756 /* TermsStoryBoard.storyboard */; };
+		C48863FC2A7B9B58003C26AB /* CreateMyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48863FB2A7B9B58003C26AB /* CreateMyProfileViewController.swift */; };
+		C48863FE2A7B9B7E003C26AB /* ProfileStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48863FD2A7B9B7E003C26AB /* ProfileStoryBoard.storyboard */; };
+		C48864042A7C5955003C26AB /* CreateProfile+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48864032A7C5955003C26AB /* CreateProfile+extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +72,9 @@
 		8C935B872A72890100162847 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		8C935B892A72890A00162847 /* Keyboard+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Keyboard+extension.swift"; sourceTree = "<group>"; };
 		8CE8B3802A6C5F0E00E46756 /* TermsStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TermsStoryBoard.storyboard; sourceTree = "<group>"; };
+		C48863FB2A7B9B58003C26AB /* CreateMyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMyProfileViewController.swift; sourceTree = "<group>"; };
+		C48863FD2A7B9B7E003C26AB /* ProfileStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileStoryBoard.storyboard; sourceTree = "<group>"; };
+		C48864032A7C5955003C26AB /* CreateProfile+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CreateProfile+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +140,7 @@
 				2A0BD83B2A688D4700A8A80E /* LaunchScreen.storyboard */,
 				2A0BD83E2A688D4700A8A80E /* Info.plist */,
 				88355F2B2A6E9742004A96A3 /* CartAnimationFiles */,
+				C48863FA2A7B9B11003C26AB /* CreateMyProfile */,
 			);
 			path = ShopGo;
 			sourceTree = "<group>";
@@ -207,6 +214,16 @@
 			path = "Terms&CondtionScreens";
 			sourceTree = "<group>";
 		};
+		C48863FA2A7B9B11003C26AB /* CreateMyProfile */ = {
+			isa = PBXGroup;
+			children = (
+				C48863FB2A7B9B58003C26AB /* CreateMyProfileViewController.swift */,
+				C48863FD2A7B9B7E003C26AB /* ProfileStoryBoard.storyboard */,
+				C48864032A7C5955003C26AB /* CreateProfile+extension.swift */,
+			);
+			path = CreateMyProfile;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -274,6 +291,7 @@
 				2A0BD83A2A688D4700A8A80E /* Assets.xcassets in Resources */,
 				882D12BF2A6C8D3300546A99 /* CartAnimationStoryboard.storyboard in Resources */,
 				2A0BD8382A688D4500A8A80E /* Main.storyboard in Resources */,
+				C48863FE2A7B9B7E003C26AB /* ProfileStoryBoard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,9 +302,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C48863FC2A7B9B58003C26AB /* CreateMyProfileViewController.swift in Sources */,
 				2A014D162A71CDDE00C721C1 /* LoginViewController.swift in Sources */,
 				2A0BD8352A688D4500A8A80E /* ViewController.swift in Sources */,
 				2C7E155D2A7283D900ABF8D4 /* HomeViewController.swift in Sources */,
+				C48864042A7C5955003C26AB /* CreateProfile+extension.swift in Sources */,
 				8C1D439E2A6EFF6D00DE5FF7 /* TermsExtension.swift in Sources */,
 				88355F292A6E95EF004A96A3 /* CartAnimationExtenstion.swift in Sources */,
 				8C935B882A72890100162847 /* CreateAccountViewController.swift in Sources */,
