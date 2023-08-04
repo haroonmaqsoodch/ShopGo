@@ -34,6 +34,10 @@
 		8C935B862A7288F500162847 /* CreateAccount.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C935B852A7288F500162847 /* CreateAccount.storyboard */; };
 		8C935B882A72890100162847 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C935B872A72890100162847 /* CreateAccountViewController.swift */; };
 		8C935B8A2A72890A00162847 /* Keyboard+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C935B892A72890A00162847 /* Keyboard+extension.swift */; };
+		8CDB15452A753428007D7F7B /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDB15442A753428007D7F7B /* OnBoardingViewController.swift */; };
+		8CDB15472A753442007D7F7B /* OnBoardingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDB15462A753442007D7F7B /* OnBoardingPageViewController.swift */; };
+		8CDB154B2A7555BB007D7F7B /* PageViewController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDB154A2A7555BB007D7F7B /* PageViewController+extension.swift */; };
+		8CDB154F2A75C99D007D7F7B /* LoginSignupStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A014D0F2A71CBFF00C721C1 /* LoginSignupStoryboard.storyboard */; };
 		8CE8B3822A6C5F0E00E46756 /* TermsStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE8B3802A6C5F0E00E46756 /* TermsStoryBoard.storyboard */; };
 		C48863FC2A7B9B58003C26AB /* CreateMyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48863FB2A7B9B58003C26AB /* CreateMyProfileViewController.swift */; };
 		C48863FE2A7B9B7E003C26AB /* ProfileStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48863FD2A7B9B7E003C26AB /* ProfileStoryBoard.storyboard */; };
@@ -71,6 +75,9 @@
 		8C935B852A7288F500162847 /* CreateAccount.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CreateAccount.storyboard; sourceTree = "<group>"; };
 		8C935B872A72890100162847 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		8C935B892A72890A00162847 /* Keyboard+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Keyboard+extension.swift"; sourceTree = "<group>"; };
+		8CDB15442A753428007D7F7B /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		8CDB15462A753442007D7F7B /* OnBoardingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingPageViewController.swift; sourceTree = "<group>"; };
+		8CDB154A2A7555BB007D7F7B /* PageViewController+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PageViewController+extension.swift"; sourceTree = "<group>"; };
 		8CE8B3802A6C5F0E00E46756 /* TermsStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TermsStoryBoard.storyboard; sourceTree = "<group>"; };
 		C48863FB2A7B9B58003C26AB /* CreateMyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMyProfileViewController.swift; sourceTree = "<group>"; };
 		C48863FD2A7B9B7E003C26AB /* ProfileStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileStoryBoard.storyboard; sourceTree = "<group>"; };
@@ -128,6 +135,7 @@
 			children = (
 				2A0BD8302A688D4500A8A80E /* AppDelegate.swift */,
 				2A0BD8322A688D4500A8A80E /* SceneDelegate.swift */,
+				8CDB15492A753469007D7F7B /* OnBoardingScreen */,
 				8C935B8B2A72891400162847 /* CreateAccount */,
 				2A014D192A71CE0400C721C1 /* Login */,
 				2A8C35012A6F2AE5007B3456 /* Main */,
@@ -202,6 +210,16 @@
 				41EB33E72A733A9000757FD1 /* Inputfield+extension.swift */,
 			);
 			path = CreateAccount;
+			sourceTree = "<group>";
+		};
+		8CDB15492A753469007D7F7B /* OnBoardingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8CDB15442A753428007D7F7B /* OnBoardingViewController.swift */,
+				8CDB15462A753442007D7F7B /* OnBoardingPageViewController.swift */,
+				8CDB154A2A7555BB007D7F7B /* PageViewController+extension.swift */,
+			);
+			path = OnBoardingScreen;
 			sourceTree = "<group>";
 		};
 		8CE8B37E2A6C5F0E00E46756 /* Terms&CondtionScreens */ = {
@@ -282,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CDB154F2A75C99D007D7F7B /* LoginSignupStoryboard.storyboard in Resources */,
 				8C935B862A7288F500162847 /* CreateAccount.storyboard in Resources */,
 				2AEC8AC12A6F2AB1003AAEC1 /* OTPStoryboard.storyboard in Resources */,
 				2C7E155F2A72840400ABF8D4 /* HomeScreenTopPartStoryboard.storyboard in Resources */,
@@ -309,6 +328,7 @@
 				C48864042A7C5955003C26AB /* CreateProfile+extension.swift in Sources */,
 				8C1D439E2A6EFF6D00DE5FF7 /* TermsExtension.swift in Sources */,
 				88355F292A6E95EF004A96A3 /* CartAnimationExtenstion.swift in Sources */,
+				8CDB154B2A7555BB007D7F7B /* PageViewController+extension.swift in Sources */,
 				8C935B882A72890100162847 /* CreateAccountViewController.swift in Sources */,
 				2A0BD8312A688D4500A8A80E /* AppDelegate.swift in Sources */,
 				2A014D182A71CDE600C721C1 /* TextField+extension.swift in Sources */,
@@ -317,12 +337,14 @@
 				2A0BD8332A688D4500A8A80E /* SceneDelegate.swift in Sources */,
 				2A014D122A71CC4200C721C1 /* CustomLoginInnerButton.swift in Sources */,
 				41EB33E82A733A9000757FD1 /* Inputfield+extension.swift in Sources */,
+				8CDB15472A753442007D7F7B /* OnBoardingPageViewController.swift in Sources */,
 				8C1D439C2A6EAA0000DE5FF7 /* CustomButtonView.swift in Sources */,
 				8C935B8A2A72890A00162847 /* Keyboard+extension.swift in Sources */,
 				8C1D43942A6D29CE00DE5FF7 /* CustomButton.swift in Sources */,
 				8C1D439A2A6D2D7100DE5FF7 /* TermsViewController.swift in Sources */,
 				2AEC8AC02A6F2AB1003AAEC1 /* OTPTextFieldExtension.swift in Sources */,
 				882D12C12A6C8D7100546A99 /* CartAnimationViewController.swift in Sources */,
+				8CDB15452A753428007D7F7B /* OnBoardingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
