@@ -26,4 +26,13 @@ extension LoginViewController {
         redLine.backgroundColor = UIColor.red.cgColor
         passwordTextField.layer.addSublayer(redLine)
     }
+    
+    func hideKeyboardOnTap() {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(dismissMyKeyboard))
+        view.addGestureRecognizer(tap)
+    }
+    
+    @objc func dismissMyKeyboard(){
+        view.endEditing(true)
+    }
 }
