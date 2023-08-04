@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="m1q-6n-QjW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Q1U-gN-QSy">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
@@ -16,13 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
- open-media-sites
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cartImage" translatesAutoresizingMaskIntoConstraints="NO" id="pqZ-sD-reP">
-                                <rect key="frame" x="59" y="160" width="275" height="422"/>
-
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cart" translatesAutoresizingMaskIntoConstraints="NO" id="pqZ-sD-reP">
                                 <rect key="frame" x="59" y="204" width="275" height="378"/>
- develop
                                 <constraints>
                                     <constraint firstAttribute="width" constant="275" id="gcw-bq-mHR"/>
                                 </constraints>
@@ -37,11 +32,11 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="0ak-3L-7N8" firstAttribute="top" secondItem="pqZ-sD-reP" secondAttribute="bottom" constant="15" id="2qY-Xi-7vP"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="pqZ-sD-reP" secondAttribute="trailing" constant="59" id="3an-D3-ddL"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="pqZ-sD-reP" secondAttribute="bottom" constant="236" id="8NL-hj-Pc0"/>
                             <constraint firstItem="pqZ-sD-reP" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="59" id="OV3-jf-HyO"/>
                             <constraint firstItem="pqZ-sD-reP" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="101" id="ObB-H8-8g0"/>
+                            <constraint firstItem="0ak-3L-7N8" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="494" id="R5y-jl-l9g"/>
                             <constraint firstItem="0ak-3L-7N8" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="h9E-Ql-N6o"/>
                         </constraints>
                     </view>
@@ -53,35 +48,29 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1503.0534351145038" y="-11.267605633802818"/>
- create-on-boarding-screen
+            <point key="canvasLocation" x="2429.770992366412" y="-11.267605633802818"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="qx5-wb-tFl">
+        <scene sceneID="QFM-EE-BD1">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="m1q-6n-QjW" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Q1U-gN-QSy" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vf7-aJ-uJC">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gUS-fV-ryL">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="4aj-qG-gSe"/>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="tvl-1e-tF0"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Wn2-s0-wve" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XPX-wX-cda" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="576.33587786259545" y="-11.267605633802818"/>
- develop
+            <point key="canvasLocation" x="1503.0534351145038" y="-11.267605633802818"/>
         </scene>
     </scenes>
     <resources>
- open-media-sites
-        <image name="cartImage" width="500" height="500"/>
-
         <image name="cart" width="500" height="500"/>
- develop
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
