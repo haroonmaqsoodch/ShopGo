@@ -19,7 +19,7 @@ class CreateMyProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        profilePictureUI()
         loadIconImages()
+        profilePictureUI()
     }
 }
