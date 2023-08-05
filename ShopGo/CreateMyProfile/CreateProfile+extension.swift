@@ -13,14 +13,11 @@ extension CreateMyProfileViewController{
         address.image = UIImage(named: "address")
         order.image = UIImage(named: "order")
         setting.image = UIImage(named: "setting")
-        home.image = UIImage(named: "home")
-        cart.image = UIImage(named: "cartIcon")
-        profile.image = UIImage(named: "profile")
         profileImage.image = UIImage(named: "ProfilePic")
     }
     
     func profilePictureUI(){
-        profileImage.layer.cornerRadius = 20
+        profileImage.layer.cornerRadius = 15
        
     }
 }

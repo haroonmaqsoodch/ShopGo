@@ -13,9 +13,6 @@ class CreateMyProfileViewController: UIViewController {
     @IBOutlet weak var address: UIImageView!
     @IBOutlet weak var order: UIImageView!
     @IBOutlet weak var setting: UIImageView!
-    @IBOutlet weak var home: UIImageView!
-    @IBOutlet weak var cart: UIImageView!
-    @IBOutlet weak var profile: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
