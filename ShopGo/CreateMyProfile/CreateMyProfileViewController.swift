@@ -14,9 +14,23 @@ class CreateMyProfileViewController: UIViewController {
     @IBOutlet weak var order: UIImageView!
     @IBOutlet weak var setting: UIImageView!
 
+    @IBAction func accountDetailsButton(_ sender: Any) {
+    }
+    
+    @IBAction func cardDetailsButton(_ sender: Any) {
+    }
+    
+    @IBAction func notificationsButton(_ sender: Any) {
+    }
+    
+    @IBAction func deliveryInformationButton(_ sender: Any) {
+    }
+    
+    @IBAction func paymentInformationButton(_ sender: Any) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        loadIconImages()
-        profilePictureUI()
+        setupImages()
     }
 }
