@@ -9,6 +9,8 @@ import UIKit
 
 class LoginSignupViewController: UIViewController {
     
+    let navigationManager = NavigationManager()
+    
     @IBOutlet weak var buttonView: UIView!
     @IBOutlet weak var shopGoImage: UIImageView!
     @IBOutlet weak var createButtonOutlet: UIButton!
@@ -16,10 +18,13 @@ class LoginSignupViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.hidesBackButton = true
     }
     
     @IBAction func createAccoutTap(_ sender: Any) {
+        navigationManager.navigate(to: .Terms, in: "TermsStoryBoard", from: self)
     }
     @IBAction func LoginButtonTap(_ sender: Any) {
+        navigationManager.navigate(to: .Login, in: "LoginScreen", from: self)
     }
 }

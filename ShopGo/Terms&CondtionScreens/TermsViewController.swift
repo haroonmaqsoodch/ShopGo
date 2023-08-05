@@ -8,6 +8,7 @@
 import UIKit
 class TermsViewController: UIViewController {
     
+    let navigationManager = NavigationManager()
     var isReadMoreTapped = false
     
     @IBOutlet weak var logInButton: UIButton!
@@ -23,6 +24,14 @@ class TermsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         termsViewDesign()
+    }
+    
+    @IBAction func nextButtonTap(_ sender: Any) {
+        navigationManager.navigate(to: .CreateAccount, in: "CreateAccount", from: self)
+    }
+    
+    @IBAction func loginButtonTap(_ sender: Any) {
+        navigationManager.navigate(to: .Login, in: "LoginScreen", from: self)
     }
     
     @IBAction func readMorePressed(_ sender: Any) {

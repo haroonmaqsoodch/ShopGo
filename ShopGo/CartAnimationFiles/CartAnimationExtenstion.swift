@@ -34,11 +34,9 @@ extension CartAnimationViewController {
     func transition(){
         if UserDefaults.standard.bool(forKey: "OnboardingCompleted") == false{
             UserDefaults.standard.set(true, forKey: "OnboardingCompleted")
-            let vc = UIStoryboard(name: "LoginSignupStoryboard", bundle: nil).instantiateViewController(withIdentifier: "OnBoardingPageViewController") as! OnBoardingPageViewController
-            navigationController?.pushViewController(vc, animated: true)
+            navigationManager.navigate(to: .Onboarding, in: "LoginSignupStoryboard", from: self)
         } else {
-            let vc = UIStoryboard(name: "LoginSignupStoryboard", bundle: nil).instantiateViewController(withIdentifier: "LoginSignupViewController") as! LoginSignupViewController
-            navigationController?.pushViewController(vc, animated: true)
+            navigationManager.navigate(to: .LoginSignup, in: "LoginSignupStoryboard", from: self)
         }
     }
 }

@@ -9,11 +9,14 @@ import UIKit
 
 class CartAnimationViewController: UIViewController {
     
+    var navigationManager = NavigationManager()
+    
     @IBOutlet weak var cartImage: UIImageView! {
         didSet {
             cartImage.image = UIImage(named: "cartImage")
         }
     }
+    
     @IBOutlet weak var shopGoLabel: UILabel!
     
     override func viewDidLoad() {
@@ -22,5 +25,4 @@ class CartAnimationViewController: UIViewController {
         animationImage()
         animationlabel()
     }
-    
 }

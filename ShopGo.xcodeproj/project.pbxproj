@@ -34,6 +34,7 @@
 		8C1D439A2A6D2D7100DE5FF7 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D43992A6D2D7100DE5FF7 /* TermsViewController.swift */; };
 		8C1D439C2A6EAA0000DE5FF7 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D439B2A6EA9FF00DE5FF7 /* CustomButtonView.swift */; };
 		8C1D439E2A6EFF6D00DE5FF7 /* TermsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D439D2A6EFF6D00DE5FF7 /* TermsExtension.swift */; };
+		8C3D720A2A7E871A0029BF59 /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3D72092A7E871A0029BF59 /* NavigationManager.swift */; };
 		8C935B862A7288F500162847 /* CreateAccount.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C935B852A7288F500162847 /* CreateAccount.storyboard */; };
 		8C935B882A72890100162847 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C935B872A72890100162847 /* CreateAccountViewController.swift */; };
 		8C935B8A2A72890A00162847 /* Keyboard+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C935B892A72890A00162847 /* Keyboard+extension.swift */; };
@@ -78,6 +79,7 @@
 		8C1D43992A6D2D7100DE5FF7 /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 		8C1D439B2A6EA9FF00DE5FF7 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		8C1D439D2A6EFF6D00DE5FF7 /* TermsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsExtension.swift; sourceTree = "<group>"; };
+		8C3D72092A7E871A0029BF59 /* NavigationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationManager.swift; sourceTree = "<group>"; };
 		8C935B852A7288F500162847 /* CreateAccount.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CreateAccount.storyboard; sourceTree = "<group>"; };
 		8C935B872A72890100162847 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		8C935B892A72890A00162847 /* Keyboard+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Keyboard+extension.swift"; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				2A0BD8302A688D4500A8A80E /* AppDelegate.swift */,
+				8C3D72092A7E871A0029BF59 /* NavigationManager.swift */,
 				2A0BD8322A688D4500A8A80E /* SceneDelegate.swift */,
 				8CDB15492A753469007D7F7B /* OnBoardingScreen */,
 				8C935B8B2A72891400162847 /* CreateAccount */,
@@ -339,6 +342,7 @@
 				88355F292A6E95EF004A96A3 /* CartAnimationExtenstion.swift in Sources */,
 				8CDB154B2A7555BB007D7F7B /* PageViewController+extension.swift in Sources */,
 				8C935B882A72890100162847 /* CreateAccountViewController.swift in Sources */,
+				8C3D720A2A7E871A0029BF59 /* NavigationManager.swift in Sources */,
 				2A0BD8312A688D4500A8A80E /* AppDelegate.swift in Sources */,
 				2A014D182A71CDE600C721C1 /* TextField+extension.swift in Sources */,
 				2A014D0E2A71CBFC00C721C1 /* LoginSignupViewController.swift in Sources */,

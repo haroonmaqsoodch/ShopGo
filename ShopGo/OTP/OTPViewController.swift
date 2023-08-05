@@ -9,6 +9,7 @@ import UIKit
 
 class OTPViewController: UIViewController {
     
+    let navigationManager = NavigationManager()
     let addDelay: Double = 0.0
     
     @IBOutlet weak var firstField: UITextField!
@@ -23,9 +24,11 @@ class OTPViewController: UIViewController {
     }
     
     @IBAction func createAccountButtonTapped(_ sender: Any) {
+        navigationManager.navigate(to: .Login, in: "LoginScreen", from: self)
     }
     
     @IBAction func loginButton(_ sender: Any) {
+        navigationManager.navigate(to: .Login, in: "LoginScreen", from: self)
     }
     
     func addShadow(button: UIButton) {
