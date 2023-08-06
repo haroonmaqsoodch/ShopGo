@@ -59,6 +59,9 @@
                                             <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="32"/>
                                             <color key="baseBackgroundColor" name="ButtonColor"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="nextButtonTap:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="cDP-bT-dX8"/>
+                                        </connections>
                                     </button>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ARt-uR-cMX">
                                         <rect key="frame" x="61.666666666666657" y="100" width="270" height="45"/>
@@ -123,6 +126,9 @@
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
                                             <color key="baseForegroundColor" name="ButtonColor"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="loginButtonTap:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="LtM-9E-qko"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
@@ -170,6 +176,7 @@
                     </view>
                     <connections>
                         <outlet property="emailTextField" destination="B98-u3-j7B" id="fId-Bn-ySm"/>
+                        <outlet property="loginButtonOutlet" destination="Nd9-dP-Uuj" id="Rgg-hJ-bMg"/>
                         <outlet property="nextButtonOutlet" destination="ZSz-ZO-fqJ" id="JIV-TZ-bqg"/>
                         <outlet property="passwordTextField" destination="ech-oG-S1f" id="eL5-82-IUA"/>
                         <outlet property="phoneTextField" destination="mmF-gO-TnL" id="C21-Nn-kqE"/>

@@ -9,6 +9,9 @@ import UIKit
 
 class CreateAccountViewController: UIViewController {
     
+    let navigationManager = NavigationManager()
+    
+    @IBOutlet weak var loginButtonOutlet: UIButton!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var phoneTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
@@ -31,5 +34,12 @@ class CreateAccountViewController: UIViewController {
         emailTextField.addTarget(self, action: #selector(buttonEnable), for: .editingChanged)
         phoneTextField.addTarget(self, action: #selector(buttonEnable), for: .editingChanged)
         passwordTextField.addTarget(self, action: #selector(buttonEnable), for: .editingChanged)
+    }
+    
+    @IBAction func nextButtonTap(_ sender: Any) {
+        navigationManager.navigate(to: .OTP, in: "OTPStoryboard", from: self)
+    }
+    @IBAction func loginButtonTap(_ sender: Any) {
+        navigationManager.navigate(to: .Login, in: "LoginScreen", from: self)
     }
 }

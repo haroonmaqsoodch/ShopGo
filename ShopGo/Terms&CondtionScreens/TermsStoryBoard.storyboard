@@ -30,6 +30,9 @@
                                     <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="28"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="nextButtonTap:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Re4-RI-Bo1"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QXf-tn-Pzx">
                                 <rect key="frame" x="63" y="274.33333333333331" width="304" height="135"/>
@@ -98,6 +101,9 @@
                                     <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="19"/>
                                     <color key="baseForegroundColor" name="ButtonColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="loginButtonTap:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Onj-JZ-Pyh"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Terms &amp; Condition" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LCV-3m-enU">
                                 <rect key="frame" x="82" y="194" width="266" height="38.333333333333343"/>

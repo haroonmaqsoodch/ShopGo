@@ -34,14 +34,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FvT-Ed-jsy">
-                                <rect key="frame" x="30" y="292" width="156.66666666666669" height="27.666666666666686"/>
+                                <rect key="frame" x="30" y="292" width="156.66666666666666" height="27.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WMP-VF-t6K">
-                                <rect key="frame" x="50" y="341.66666666666669" width="330" height="45"/>
-
+                                <rect key="frame" x="30" y="329.66666666666669" width="330" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="330" id="Nfg-JN-wWM"/>
                                     <constraint firstAttribute="height" constant="45" id="iXC-IE-dPO"/>
@@ -50,7 +49,7 @@
                                 <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sqk-yb-DgR">
-                                <rect key="frame" x="30" y="384.66666666666669" width="156.66666666666669" height="27.666666666666686"/>
+                                <rect key="frame" x="30" y="384.66666666666669" width="156.66666666666666" height="27.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -65,7 +64,7 @@
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pWS-2h-OhE" customClass="CustomButton" customModule="ShopGo" customModuleProvider="target">
-                                <rect key="frame" x="80" y="555.66666666666663" width="270" height="45"/>
+                                <rect key="frame" x="71" y="551.33333333333337" width="248" height="45"/>
                                 <color key="backgroundColor" name="ButtonColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="5O0-jV-qnc"/>
@@ -79,41 +78,15 @@
                                     <action selector="loginButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wcr-1r-PPt"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="3Vo-b0-m6C">
-                                <rect key="frame" x="96" y="709.33333333333337" width="238" height="50"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Facebook" translatesAutoresizingMaskIntoConstraints="NO" id="Oi9-r4-zlo">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="R2A-yD-kJu"/>
-                                            <constraint firstAttribute="width" constant="50" id="YQa-6J-HNS"/>
-                                        </constraints>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Twitter" translatesAutoresizingMaskIntoConstraints="NO" id="Pa8-QF-4w0">
-                                        <rect key="frame" x="94" y="0.0" width="50" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="50" id="V77-sJ-G1o"/>
-                                            <constraint firstAttribute="height" constant="50" id="hbU-nj-s0A"/>
-                                        </constraints>
-                                    </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LinkedIn" translatesAutoresizingMaskIntoConstraints="NO" id="yP4-ti-wKL">
-                                        <rect key="frame" x="188" y="0.0" width="50" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="Ouy-uB-uvO"/>
-                                            <constraint firstAttribute="width" constant="50" id="nkQ-Kc-LVQ"/>
-                                        </constraints>
-                                    </imageView>
-                                </subviews>
-                            </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⸻ Log in with ⸻" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JLa-O3-SM0">
-                                <rect key="frame" x="80" y="650.66666666666663" width="270" height="28.666666666666629"/>
+                                <rect key="frame" x="71" y="646.33333333333337" width="248" height="28.666666666666629"/>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="24"/>
                                 <color key="textColor" systemColor="systemGrayColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forgot password?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Fv-Nm-HW2">
-                                <rect key="frame" x="49.999999999999986" y="481.66666666666669" width="156.66666666666663" height="24"/>
+                                <rect key="frame" x="30" y="477.33333333333331" width="156.66666666666666" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" systemColor="systemGrayColor"/>
                                 <nil key="highlightedColor"/>
@@ -194,8 +167,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="facebookButtonOutlet" destination="t1F-6l-NQ0" id="zyS-Am-3Yj"/>
                         <outlet property="forgotPassword" destination="9Fv-Nm-HW2" id="Hu1-cA-l42"/>
-                        <outlet property="facebookButton" destination="t1F-6l-NQ0" id="OwZ-tm-Aoz"/>
                         <outlet property="linkedInButtonOutlet" destination="DxG-lP-9kS" id="SO6-aN-3Jp"/>
                         <outlet property="loginButton" destination="pWS-2h-OhE" id="JUr-Jg-MaA"/>
                         <outlet property="passwordTextField" destination="yBh-dU-laB" id="AKV-Va-Ouj"/>

@@ -23,7 +23,7 @@
                                     <constraint firstAttribute="height" constant="264" id="d5L-Cu-Ldx"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yBF-cr-Pje">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yBF-cr-Pje" customClass="CustomButton" customModule="ShopGo" customModuleProvider="target">
                                 <rect key="frame" x="40.666666666666657" y="602" width="312" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="312" id="3ur-y0-9XM"/>

@@ -9,6 +9,8 @@ import UIKit
 
 class LoginViewController: UIViewController, UITextFieldDelegate {
     
+    let navigationManager = NavigationManager()
+    
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var userNameTextField: UITextField!
     @IBOutlet weak var forgotPassword: UILabel!
@@ -16,10 +18,10 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var facebookButtonOutlet: UIButton!
     @IBOutlet weak var twitterButtonOutlet: UIButton!
     @IBOutlet weak var linkedInButtonOutlet: UIButton!
-  
+    
     var userName: String = "Shopgo321"
     var passWord: String = "Apple321!"
-      
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         userNameTextField.iconInsideTextField(imageViewNamed: "username")
@@ -28,12 +30,13 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         twitterButtonImage()
         facebookButtonImage()
         passwordTextField.delegate = self
-        }
-
+    }
     
     @IBAction func loginButtonAction(_ sender: UIButton) {
         if userNameTextField.text != userName || passwordTextField.text != passWord {
             wrongPasswordShaker()
+        } else if userNameTextField.text == userName && passwordTextField.text == passWord {
+            navigationManager.navigate(to: .Home, in: "HomeScreenTopPartStoryboard", from: self)
         }
     }
     

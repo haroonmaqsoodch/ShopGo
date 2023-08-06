@@ -18,6 +18,7 @@ class OnBoardingPageViewController : UIPageViewController, UIPageViewControllerD
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.hidesBackButton = true
         pageController = UIPageControl()
         pageViewController = UIPageViewController(transitionStyle: .scroll, navigationOrientation: .horizontal)
         dataSource = self
