@@ -30,6 +30,10 @@
 		882802312A78FFCC00623D3D /* mediaExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882802302A78FFCC00623D3D /* mediaExtensionViewController.swift */; };
 		882D12C12A6C8D7100546A99 /* CartAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882D12C02A6C8D7100546A99 /* CartAnimationViewController.swift */; };
 		88355F292A6E95EF004A96A3 /* CartAnimationExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88355F282A6E95EF004A96A3 /* CartAnimationExtenstion.swift */; };
+		88E079762A80FBC800B2ACA7 /* WishListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E079752A80FBC800B2ACA7 /* WishListViewController.swift */; };
+		88E079782A80FC2700B2ACA7 /* WishListStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E079772A80FC2700B2ACA7 /* WishListStoryboard.storyboard */; };
+		88E0797A2A80FE3C00B2ACA7 /* WishListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E079792A80FE3C00B2ACA7 /* WishListCollectionViewCell.swift */; };
+		88E0797E2A81019300B2ACA7 /* WishListExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E0797D2A81019300B2ACA7 /* WishListExtension.swift */; };
 		8C1D43942A6D29CE00DE5FF7 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D43932A6D29CE00DE5FF7 /* CustomButton.swift */; };
 		8C1D439A2A6D2D7100DE5FF7 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D43992A6D2D7100DE5FF7 /* TermsViewController.swift */; };
 		8C1D439C2A6EAA0000DE5FF7 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D439B2A6EA9FF00DE5FF7 /* CustomButtonView.swift */; };
@@ -75,6 +79,10 @@
 		882802302A78FFCC00623D3D /* mediaExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mediaExtensionViewController.swift; sourceTree = "<group>"; };
 		882D12C02A6C8D7100546A99 /* CartAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartAnimationViewController.swift; sourceTree = "<group>"; };
 		88355F282A6E95EF004A96A3 /* CartAnimationExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartAnimationExtenstion.swift; sourceTree = "<group>"; };
+		88E079752A80FBC800B2ACA7 /* WishListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListViewController.swift; sourceTree = "<group>"; };
+		88E079772A80FC2700B2ACA7 /* WishListStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WishListStoryboard.storyboard; sourceTree = "<group>"; };
+		88E079792A80FE3C00B2ACA7 /* WishListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListCollectionViewCell.swift; sourceTree = "<group>"; };
+		88E0797D2A81019300B2ACA7 /* WishListExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListExtension.swift; sourceTree = "<group>"; };
 		8C1D43932A6D29CE00DE5FF7 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		8C1D43992A6D2D7100DE5FF7 /* TermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 		8C1D439B2A6EA9FF00DE5FF7 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
@@ -158,6 +166,7 @@
 				2A0BD8392A688D4700A8A80E /* Assets.xcassets */,
 				2A0BD83B2A688D4700A8A80E /* LaunchScreen.storyboard */,
 				2A0BD83E2A688D4700A8A80E /* Info.plist */,
+				88E079742A80FB0E00B2ACA7 /* CreateWishListScreen */,
 				88355F2B2A6E9742004A96A3 /* CartAnimationFiles */,
 				C48863FA2A7B9B11003C26AB /* CreateMyProfile */,
 			);
@@ -210,6 +219,17 @@
 				2ABCD7772A7D953C00E77838 /* CartAnimationStoryboard.storyboard */,
 			);
 			path = CartAnimationFiles;
+			sourceTree = "<group>";
+		};
+		88E079742A80FB0E00B2ACA7 /* CreateWishListScreen */ = {
+			isa = PBXGroup;
+			children = (
+				88E079752A80FBC800B2ACA7 /* WishListViewController.swift */,
+				88E079792A80FE3C00B2ACA7 /* WishListCollectionViewCell.swift */,
+				88E0797D2A81019300B2ACA7 /* WishListExtension.swift */,
+				88E079772A80FC2700B2ACA7 /* WishListStoryboard.storyboard */,
+			);
+			path = CreateWishListScreen;
 			sourceTree = "<group>";
 		};
 		8C935B8B2A72891400162847 /* CreateAccount */ = {
@@ -320,6 +340,7 @@
 				2A0BD83D2A688D4700A8A80E /* LaunchScreen.storyboard in Resources */,
 				8CE8B3822A6C5F0E00E46756 /* TermsStoryBoard.storyboard in Resources */,
 				2A0BD83A2A688D4700A8A80E /* Assets.xcassets in Resources */,
+				88E079782A80FC2700B2ACA7 /* WishListStoryboard.storyboard in Resources */,
 				2A0BD8382A688D4500A8A80E /* Main.storyboard in Resources */,
 				C48863FE2A7B9B7E003C26AB /* ProfileStoryBoard.storyboard in Resources */,
 				2ABCD7782A7D953C00E77838 /* CartAnimationStoryboard.storyboard in Resources */,
@@ -337,6 +358,7 @@
 				2A014D162A71CDDE00C721C1 /* LoginViewController.swift in Sources */,
 				2A0BD8352A688D4500A8A80E /* ViewController.swift in Sources */,
 				2C7E155D2A7283D900ABF8D4 /* HomeViewController.swift in Sources */,
+				88E0797A2A80FE3C00B2ACA7 /* WishListCollectionViewCell.swift in Sources */,
 				C48864042A7C5955003C26AB /* CreateProfile+extension.swift in Sources */,
 				8C1D439E2A6EFF6D00DE5FF7 /* TermsExtension.swift in Sources */,
 				88355F292A6E95EF004A96A3 /* CartAnimationExtenstion.swift in Sources */,
@@ -346,6 +368,7 @@
 				2A0BD8312A688D4500A8A80E /* AppDelegate.swift in Sources */,
 				2A014D182A71CDE600C721C1 /* TextField+extension.swift in Sources */,
 				2A014D0E2A71CBFC00C721C1 /* LoginSignupViewController.swift in Sources */,
+				88E0797E2A81019300B2ACA7 /* WishListExtension.swift in Sources */,
 				82C57B742A7AD7E800E4C5FD /* PasswordTextField+passwordExtension.swift in Sources */,
 				41EB33EA2A744D9800757FD1 /* Button+extension.swift in Sources */,
 				2AEC8AC22A6F2AB1003AAEC1 /* OTPViewController.swift in Sources */,
@@ -353,6 +376,7 @@
 				2A014D122A71CC4200C721C1 /* CustomLoginInnerButton.swift in Sources */,
 				41EB33E82A733A9000757FD1 /* Inputfield+extension.swift in Sources */,
 				8CDB15472A753442007D7F7B /* OnBoardingPageViewController.swift in Sources */,
+				88E079762A80FBC800B2ACA7 /* WishListViewController.swift in Sources */,
 				8C1D439C2A6EAA0000DE5FF7 /* CustomButtonView.swift in Sources */,
 				8C935B8A2A72890A00162847 /* Keyboard+extension.swift in Sources */,
 				8C1D43942A6D29CE00DE5FF7 /* CustomButton.swift in Sources */,
