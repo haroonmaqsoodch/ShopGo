@@ -1,5 +1,5 @@
 //
-//  XibTablevViewCell.swift
+//  CartScreenXibTablevViewCell.swift
 //  ShopGo
 //
 //  Created by Zoha Nadeem on 8/8/23.
@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class XibTableViewCell: UITableViewCell{
+class CartScreenXibTableViewCell: UITableViewCell {
     
     var currentValue = 1
     
@@ -20,8 +20,10 @@ class XibTableViewCell: UITableViewCell{
     @IBOutlet weak var minusButtonOutlet: UIButton!
     @IBOutlet weak var plusButtonOutlet: UIButton!
     @IBAction func minusButton(_ sender: Any) {
-        currentValue -= 1
-        valueLabel.text = "\(currentValue)"
+        if currentValue > 0 {
+            currentValue -= 1
+            valueLabel.text = "\(currentValue)"
+        }
     }
     
     @IBAction func plusButton(_ sender: Any) {

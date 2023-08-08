@@ -14,11 +14,12 @@ class CartScreenViewController: UIViewController {
     var cartScreenImageAray = [UIImage(named: "birthday"), UIImage(named: "birthday2")]
     
     @IBOutlet weak var tableView: UITableView!
-    @IBAction func continueButton(_ sender: Any) {
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.register(UINib(nibName: "XibCellView", bundle: nil), forCellReuseIdentifier: "XibTableViewCell")
+        tableView.register(UINib(nibName: "XibCellView", bundle: nil), forCellReuseIdentifier: "CartScreenXibTableViewCell")
+    }
+    
+    @IBAction func continueButton(_ sender: Any) {
     }
 }

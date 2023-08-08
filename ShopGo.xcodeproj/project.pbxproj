@@ -48,7 +48,7 @@
 		C48864042A7C5955003C26AB /* CreateProfile+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48864032A7C5955003C26AB /* CreateProfile+extension.swift */; };
 		C4BE126A2A802DD1000A8BF2 /* CartScreenStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4BE12692A802DD1000A8BF2 /* CartScreenStoryboard.storyboard */; };
 		C4BE12AA2A80F36D000A8BF2 /* CartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BE12A92A80F36D000A8BF2 /* CartScreenViewController.swift */; };
-		C4BE13702A8177AB000A8BF2 /* XibTablevViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BE136F2A8177AB000A8BF2 /* XibTablevViewCell.swift */; };
+		C4BE13702A8177AB000A8BF2 /* CartScreenXibTablevViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BE136F2A8177AB000A8BF2 /* CartScreenXibTablevViewCell.swift */; };
 		C4BE13722A8177B7000A8BF2 /* XibCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4BE13712A8177B7000A8BF2 /* XibCellView.xib */; };
 		C4BE13742A8178F7000A8BF2 /* cartScreenExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BE13732A8178F7000A8BF2 /* cartScreenExtension.swift */; };
 /* End PBXBuildFile section */
@@ -97,7 +97,7 @@
 		C48864032A7C5955003C26AB /* CreateProfile+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CreateProfile+extension.swift"; sourceTree = "<group>"; };
 		C4BE12692A802DD1000A8BF2 /* CartScreenStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CartScreenStoryboard.storyboard; sourceTree = "<group>"; };
 		C4BE12A92A80F36D000A8BF2 /* CartScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartScreenViewController.swift; sourceTree = "<group>"; };
-		C4BE136F2A8177AB000A8BF2 /* XibTablevViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibTablevViewCell.swift; sourceTree = "<group>"; };
+		C4BE136F2A8177AB000A8BF2 /* CartScreenXibTablevViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartScreenXibTablevViewCell.swift; sourceTree = "<group>"; };
 		C4BE13712A8177B7000A8BF2 /* XibCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibCellView.xib; sourceTree = "<group>"; };
 		C4BE13732A8178F7000A8BF2 /* cartScreenExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartScreenExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -270,7 +270,7 @@
 			children = (
 				C4BE12A92A80F36D000A8BF2 /* CartScreenViewController.swift */,
 				C4BE12692A802DD1000A8BF2 /* CartScreenStoryboard.storyboard */,
-				C4BE136F2A8177AB000A8BF2 /* XibTablevViewCell.swift */,
+				C4BE136F2A8177AB000A8BF2 /* CartScreenXibTablevViewCell.swift */,
 				C4BE13732A8178F7000A8BF2 /* cartScreenExtension.swift */,
 				C4BE13712A8177B7000A8BF2 /* XibCellView.xib */,
 			);
@@ -381,7 +381,7 @@
 				41EB33E82A733A9000757FD1 /* Inputfield+extension.swift in Sources */,
 				8CDB15472A753442007D7F7B /* OnBoardingPageViewController.swift in Sources */,
 				8C1D439C2A6EAA0000DE5FF7 /* CustomButtonView.swift in Sources */,
-				C4BE13702A8177AB000A8BF2 /* XibTablevViewCell.swift in Sources */,
+				C4BE13702A8177AB000A8BF2 /* CartScreenXibTablevViewCell.swift in Sources */,
 				8C935B8A2A72890A00162847 /* Keyboard+extension.swift in Sources */,
 				8C1D43942A6D29CE00DE5FF7 /* CustomButton.swift in Sources */,
 				8C1D439A2A6D2D7100DE5FF7 /* TermsViewController.swift in Sources */,
