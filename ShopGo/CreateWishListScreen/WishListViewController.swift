@@ -8,7 +8,10 @@
 import UIKit
 
 class WishListViewController: UIViewController {
-    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        setUpWishListButton()
+    }
     var wishListLabelArray: [String] = ["Watch","Heels","Shoes" ,"Shoes", "Bag", "Dress", "Watch", "Bag", "Shoes", "Dress"]
      var wishListMoneyArray: [String] = ["20$"]
      var wishListImageArray = [
@@ -28,9 +31,4 @@ class WishListViewController: UIViewController {
     @IBAction func ellipsisButton(_ sender: Any) {
     }
     @IBOutlet weak var ellipsisButtonOutlet: UIButton!
-   
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        setUpWishListButton()
-    }
 }
