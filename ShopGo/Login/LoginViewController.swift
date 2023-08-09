@@ -36,7 +36,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         if userNameTextField.text != userName || passwordTextField.text != passWord {
             wrongPasswordShaker()
         } else if userNameTextField.text == userName && passwordTextField.text == passWord {
-            navigationManager.navigate(to: .Home, in: "HomeScreenTopPartStoryboard", from: self)
+            transitionToCustomTabBar()
         }
     }
     
@@ -50,6 +50,12 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func linkedinButton(_ sender: Any) {
         linkedInButton()
+    }
+    
+    func transitionToCustomTabBar() {
+        let vc = UIStoryboard(name: "HomeScreenTopPartStoryboard", bundle: nil).instantiateViewController(withIdentifier: "CustomTabBar") as! CustomTabBar
+        
+        navigationController?.pushViewController(vc, animated: true)
     }
 }
 
