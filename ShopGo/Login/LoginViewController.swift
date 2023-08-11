@@ -24,8 +24,8 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        userNameTextField.iconInsideTextField(imageViewNamed: "username")
-        passwordTextField.iconInsideTextField(imageViewNamed: "password")
+        userNameTextField.iconInsideTextField(imageViewNamed: "profile")
+        passwordTextField.iconInsideTextField(imageViewNamed: "lock")
         linkedInButtonImage()
         twitterButtonImage()
         facebookButtonImage()
