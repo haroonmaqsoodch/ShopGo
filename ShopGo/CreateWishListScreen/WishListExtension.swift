@@ -6,7 +6,8 @@
 //
 
 import UIKit
-extension WishListViewController: UICollectionViewDelegate, UICollectionViewDataSource,UICollectionViewDelegateFlowLayout{
+
+extension WishListViewController: UICollectionViewDelegate, UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return wishListLabelArray.count
@@ -21,12 +22,12 @@ extension WishListViewController: UICollectionViewDelegate, UICollectionViewData
         cell.cellImage.layer.cornerRadius = 15
         return cell
     }
-
+    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let bounds = collectionView.bounds
         return CGSize(width: bounds.width/2 - 40, height: 230)
     }
-
+    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
         return UIEdgeInsets(top: 80, left: 25, bottom: 0, right: 25)
     }
