@@ -8,9 +8,14 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-
+    
+    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var searchTextField : UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        configureTextfieldIcons()
+        tableViewConfiguration()
     }
 
     @IBAction func trendingButtonTapped(_ sender: Any) {

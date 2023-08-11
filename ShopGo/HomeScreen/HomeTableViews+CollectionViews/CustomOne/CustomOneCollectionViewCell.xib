@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CustomOneCollectionViewCell" id="gTV-IL-0wX" customClass="CustomOneCollectionViewCell" customModule="ShopGo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="170"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="170"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DGS-ga-ycy">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="120"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="120" id="KoR-Hm-xpe"/>
+                            <constraint firstAttribute="width" constant="150" id="icT-dx-qnF"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ffm-39-RYV">
+                        <rect key="frame" x="10" y="10" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="B82-yj-i8h"/>
+                            <constraint firstAttribute="width" constant="20" id="NeS-Sp-Hvp"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" image="heart" catalog="system"/>
+                        <connections>
+                            <action selector="heartButtonTap:" destination="gTV-IL-0wX" eventType="touchUpInside" id="ihw-EW-NtJ"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E6i-GR-5lM">
+                        <rect key="frame" x="0.0" y="140" width="150" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="uej-Rt-iS7"/>
+                            <constraint firstAttribute="width" constant="150" id="urO-nz-HoV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="E6i-GR-5lM" firstAttribute="top" secondItem="DGS-ga-ycy" secondAttribute="bottom" constant="20" id="07M-Ji-sVc"/>
+                <constraint firstItem="E6i-GR-5lM" firstAttribute="centerX" secondItem="DGS-ga-ycy" secondAttribute="centerX" id="IpZ-SO-H4l"/>
+                <constraint firstItem="DGS-ga-ycy" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="bML-GG-2zp"/>
+                <constraint firstItem="DGS-ga-ycy" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="qqm-DJ-w24"/>
+                <constraint firstItem="DGS-ga-ycy" firstAttribute="top" secondItem="Ffm-39-RYV" secondAttribute="bottom" constant="-30" id="wR2-vS-xvg"/>
+                <constraint firstItem="DGS-ga-ycy" firstAttribute="leading" secondItem="Ffm-39-RYV" secondAttribute="leading" constant="-10" id="wT4-Sw-zjQ"/>
+            </constraints>
+            <size key="customSize" width="291" height="159"/>
+            <connections>
+                <outlet property="heartButtonOutlet" destination="Ffm-39-RYV" id="T25-0f-0NZ"/>
+                <outlet property="imageViewOutlet" destination="DGS-ga-ycy" id="3PB-kY-wT8"/>
+                <outlet property="nameLabel" destination="E6i-GR-5lM" id="av2-7h-XJi"/>
+            </connections>
+            <point key="canvasLocation" x="191.6030534351145" y="-2.4647887323943665"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="heart" catalog="system" width="128" height="107"/>
+    </resources>
+</document>

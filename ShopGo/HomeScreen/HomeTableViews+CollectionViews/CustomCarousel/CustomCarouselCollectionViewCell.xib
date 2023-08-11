@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CustomCarouselCollectionViewCell" id="gTV-IL-0wX" customClass="CustomCarouselCollectionViewCell" customModule="ShopGo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="249" height="67"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="249" height="67"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="d6Y-K9-dqz">
+                        <rect key="frame" x="10" y="0.0" width="229" height="67"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OIq-Ij-xdI">
+                        <rect key="frame" x="20" y="10" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="Dmo-Co-7UP"/>
+                            <constraint firstAttribute="width" constant="20" id="kWo-tX-d4Z"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" image="heart" catalog="system"/>
+                        <connections>
+                            <action selector="heartButtonTap:" destination="gTV-IL-0wX" eventType="touchUpInside" id="tlH-Ng-xXE"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pom-mS-Vif">
+                        <rect key="frame" x="24.666666666666671" y="23.333333333333336" width="200" height="20.333333333333336"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="200" id="XnT-PA-y7b"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="d6Y-K9-dqz" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="6Nb-ic-pot"/>
+                <constraint firstAttribute="bottom" secondItem="d6Y-K9-dqz" secondAttribute="bottom" id="9n9-Q4-RyD"/>
+                <constraint firstItem="pom-mS-Vif" firstAttribute="centerX" secondItem="d6Y-K9-dqz" secondAttribute="centerX" id="C2S-lp-b3O"/>
+                <constraint firstItem="d6Y-K9-dqz" firstAttribute="leading" secondItem="OIq-Ij-xdI" secondAttribute="leading" constant="-10" id="FIS-as-HqK"/>
+                <constraint firstItem="d6Y-K9-dqz" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="La7-K4-Maj"/>
+                <constraint firstAttribute="trailing" secondItem="d6Y-K9-dqz" secondAttribute="trailing" constant="10" id="Zfc-RX-SS2"/>
+                <constraint firstItem="OIq-Ij-xdI" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="g98-ws-bDX"/>
+                <constraint firstItem="pom-mS-Vif" firstAttribute="centerY" secondItem="d6Y-K9-dqz" secondAttribute="centerY" id="y6V-KW-ZhB"/>
+            </constraints>
+            <size key="customSize" width="181" height="82"/>
+            <connections>
+                <outlet property="heartButtonOutlet" destination="OIq-Ij-xdI" id="ELS-kq-ekK"/>
+                <outlet property="imageViewOutlet" destination="d6Y-K9-dqz" id="MGd-j4-ks8"/>
+                <outlet property="trendingLabel" destination="pom-mS-Vif" id="lT0-fg-om1"/>
+            </connections>
+            <point key="canvasLocation" x="145.80152671755724" y="-0.35211267605633806"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="heart" catalog="system" width="128" height="107"/>
+    </resources>
+</document>
