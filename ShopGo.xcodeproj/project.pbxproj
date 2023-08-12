@@ -22,8 +22,10 @@
 		2AEC8AC02A6F2AB1003AAEC1 /* OTPTextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC8ABD2A6F2AB1003AAEC1 /* OTPTextFieldExtension.swift */; };
 		2AEC8AC12A6F2AB1003AAEC1 /* OTPStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AEC8ABE2A6F2AB1003AAEC1 /* OTPStoryboard.storyboard */; };
 		2AEC8AC22A6F2AB1003AAEC1 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC8ABF2A6F2AB1003AAEC1 /* OTPViewController.swift */; };
+		2C14E9212A819CA700E75EF8 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C14E9202A819CA700E75EF8 /* ContainerViewController.swift */; };
 		2C7E155D2A7283D900ABF8D4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7E155C2A7283D900ABF8D4 /* HomeViewController.swift */; };
 		2C7E155F2A72840400ABF8D4 /* HomeScreenTopPartStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C7E155E2A72840400ABF8D4 /* HomeScreenTopPartStoryboard.storyboard */; };
+		2CF1E37B2A81520300692990 /* ContainerVeiwExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF1E37A2A81520300692990 /* ContainerVeiwExtension.swift */; };
 		41EB33E82A733A9000757FD1 /* Inputfield+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EB33E72A733A9000757FD1 /* Inputfield+extension.swift */; };
 		41EB33EA2A744D9800757FD1 /* Button+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EB33E92A744D9800757FD1 /* Button+extension.swift */; };
 		82C57B742A7AD7E800E4C5FD /* PasswordTextField+passwordExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C57B732A7AD7E800E4C5FD /* PasswordTextField+passwordExtension.swift */; };
@@ -67,8 +69,10 @@
 		2AEC8ABD2A6F2AB1003AAEC1 /* OTPTextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPTextFieldExtension.swift; sourceTree = "<group>"; };
 		2AEC8ABE2A6F2AB1003AAEC1 /* OTPStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OTPStoryboard.storyboard; sourceTree = "<group>"; };
 		2AEC8ABF2A6F2AB1003AAEC1 /* OTPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		2C14E9202A819CA700E75EF8 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		2C7E155C2A7283D900ABF8D4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2C7E155E2A72840400ABF8D4 /* HomeScreenTopPartStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeScreenTopPartStoryboard.storyboard; sourceTree = "<group>"; };
+		2CF1E37A2A81520300692990 /* ContainerVeiwExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVeiwExtension.swift; sourceTree = "<group>"; };
 		41EB33E72A733A9000757FD1 /* Inputfield+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Inputfield+extension.swift"; sourceTree = "<group>"; };
 		41EB33E92A744D9800757FD1 /* Button+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+extension.swift"; sourceTree = "<group>"; };
 		82C57B732A7AD7E800E4C5FD /* PasswordTextField+passwordExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PasswordTextField+passwordExtension.swift"; sourceTree = "<group>"; };
@@ -197,6 +201,8 @@
 			isa = PBXGroup;
 			children = (
 				2C7E155C2A7283D900ABF8D4 /* HomeViewController.swift */,
+				2C14E9202A819CA700E75EF8 /* ContainerViewController.swift */,
+				2CF1E37A2A81520300692990 /* ContainerVeiwExtension.swift */,
 				2C7E155E2A72840400ABF8D4 /* HomeScreenTopPartStoryboard.storyboard */,
 			);
 			path = HomeScreen;
@@ -344,6 +350,7 @@
 				8C935B882A72890100162847 /* CreateAccountViewController.swift in Sources */,
 				8C3D720A2A7E871A0029BF59 /* NavigationManager.swift in Sources */,
 				2A0BD8312A688D4500A8A80E /* AppDelegate.swift in Sources */,
+				2CF1E37B2A81520300692990 /* ContainerVeiwExtension.swift in Sources */,
 				2A014D182A71CDE600C721C1 /* TextField+extension.swift in Sources */,
 				2A014D0E2A71CBFC00C721C1 /* LoginSignupViewController.swift in Sources */,
 				82C57B742A7AD7E800E4C5FD /* PasswordTextField+passwordExtension.swift in Sources */,
@@ -354,6 +361,7 @@
 				41EB33E82A733A9000757FD1 /* Inputfield+extension.swift in Sources */,
 				8CDB15472A753442007D7F7B /* OnBoardingPageViewController.swift in Sources */,
 				8C1D439C2A6EAA0000DE5FF7 /* CustomButtonView.swift in Sources */,
+				2C14E9212A819CA700E75EF8 /* ContainerViewController.swift in Sources */,
 				8C935B8A2A72890A00162847 /* Keyboard+extension.swift in Sources */,
 				8C1D43942A6D29CE00DE5FF7 /* CustomButton.swift in Sources */,
 				8C1D439A2A6D2D7100DE5FF7 /* TermsViewController.swift in Sources */,
