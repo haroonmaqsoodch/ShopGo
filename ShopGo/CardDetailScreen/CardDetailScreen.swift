@@ -15,5 +15,4 @@ class CardDetailScreen: UIViewController {
     
     @IBAction func addCardButtonTap(_ sender: Any) {
     }
-    
 }
