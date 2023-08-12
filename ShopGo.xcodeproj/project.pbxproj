@@ -26,7 +26,9 @@
 		2C7E155F2A72840400ABF8D4 /* HomeScreenTopPartStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C7E155E2A72840400ABF8D4 /* HomeScreenTopPartStoryboard.storyboard */; };
 		41EB33E82A733A9000757FD1 /* Inputfield+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EB33E72A733A9000757FD1 /* Inputfield+extension.swift */; };
 		41EB33EA2A744D9800757FD1 /* Button+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EB33E92A744D9800757FD1 /* Button+extension.swift */; };
+		82389C342A8293CB00FCD8C5 /* CardDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82389C332A8293CB00FCD8C5 /* CardDetailScreen.swift */; };
 		82C57B742A7AD7E800E4C5FD /* PasswordTextField+passwordExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C57B732A7AD7E800E4C5FD /* PasswordTextField+passwordExtension.swift */; };
+		82E4415F2A812687005E2556 /* CardDetailStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82E4415E2A812687005E2556 /* CardDetailStoryboard.storyboard */; };
 		882802312A78FFCC00623D3D /* mediaExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882802302A78FFCC00623D3D /* mediaExtensionViewController.swift */; };
 		882D12C12A6C8D7100546A99 /* CartAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882D12C02A6C8D7100546A99 /* CartAnimationViewController.swift */; };
 		88355F292A6E95EF004A96A3 /* CartAnimationExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88355F282A6E95EF004A96A3 /* CartAnimationExtenstion.swift */; };
@@ -71,7 +73,9 @@
 		2C7E155E2A72840400ABF8D4 /* HomeScreenTopPartStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeScreenTopPartStoryboard.storyboard; sourceTree = "<group>"; };
 		41EB33E72A733A9000757FD1 /* Inputfield+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Inputfield+extension.swift"; sourceTree = "<group>"; };
 		41EB33E92A744D9800757FD1 /* Button+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+extension.swift"; sourceTree = "<group>"; };
+		82389C332A8293CB00FCD8C5 /* CardDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailScreen.swift; sourceTree = "<group>"; };
 		82C57B732A7AD7E800E4C5FD /* PasswordTextField+passwordExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PasswordTextField+passwordExtension.swift"; sourceTree = "<group>"; };
+		82E4415E2A812687005E2556 /* CardDetailStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CardDetailStoryboard.storyboard; sourceTree = "<group>"; };
 		882802302A78FFCC00623D3D /* mediaExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mediaExtensionViewController.swift; sourceTree = "<group>"; };
 		882D12C02A6C8D7100546A99 /* CartAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartAnimationViewController.swift; sourceTree = "<group>"; };
 		88355F282A6E95EF004A96A3 /* CartAnimationExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartAnimationExtenstion.swift; sourceTree = "<group>"; };
@@ -157,6 +161,7 @@
 				2C7E155B2A72839100ABF8D4 /* HomeScreen */,
 				2A0BD8392A688D4700A8A80E /* Assets.xcassets */,
 				2A0BD83B2A688D4700A8A80E /* LaunchScreen.storyboard */,
+				82E4415D2A81262B005E2556 /* CardDetailScreen */,
 				2A0BD83E2A688D4700A8A80E /* Info.plist */,
 				88355F2B2A6E9742004A96A3 /* CartAnimationFiles */,
 				C48863FA2A7B9B11003C26AB /* CreateMyProfile */,
@@ -200,6 +205,15 @@
 				2C7E155E2A72840400ABF8D4 /* HomeScreenTopPartStoryboard.storyboard */,
 			);
 			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		82E4415D2A81262B005E2556 /* CardDetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				82E4415E2A812687005E2556 /* CardDetailStoryboard.storyboard */,
+				82389C332A8293CB00FCD8C5 /* CardDetailScreen.swift */,
+			);
+			path = CardDetailScreen;
 			sourceTree = "<group>";
 		};
 		88355F2B2A6E9742004A96A3 /* CartAnimationFiles */ = {
@@ -312,6 +326,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82E4415F2A812687005E2556 /* CardDetailStoryboard.storyboard in Resources */,
 				8CDB154F2A75C99D007D7F7B /* LoginSignupStoryboard.storyboard in Resources */,
 				8C935B862A7288F500162847 /* CreateAccount.storyboard in Resources */,
 				2AEC8AC12A6F2AB1003AAEC1 /* OTPStoryboard.storyboard in Resources */,
@@ -342,6 +357,7 @@
 				88355F292A6E95EF004A96A3 /* CartAnimationExtenstion.swift in Sources */,
 				8CDB154B2A7555BB007D7F7B /* PageViewController+extension.swift in Sources */,
 				8C935B882A72890100162847 /* CreateAccountViewController.swift in Sources */,
+				82389C342A8293CB00FCD8C5 /* CardDetailScreen.swift in Sources */,
 				8C3D720A2A7E871A0029BF59 /* NavigationManager.swift in Sources */,
 				2A0BD8312A688D4500A8A80E /* AppDelegate.swift in Sources */,
 				2A014D182A71CDE600C721C1 /* TextField+extension.swift in Sources */,
