@@ -15,20 +15,21 @@ extension CartScreenViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "CartScreenXibTableViewCell", for: indexPath) as! CartScreenXibTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "TableViewXibCell", for: indexPath) as! TableViewXibCell
         cell.itemLabel.text = cartScreenItemsArray[indexPath.row]
         cell.moneyLabel.text = moneyLabel[indexPath.row]
         cell.cartScreenImage.image = cartScreenImageAray[indexPath.row]
         cell.cartScreenImage.layer.cornerRadius = 15
-        cell.layer.cornerRadius = 50
-        cell.plusButtonOutlet.layer.cornerRadius = cell.plusButtonOutlet.frame.size.width/2
-        cell.plusButtonOutlet.clipsToBounds = true
-        cell.minusButtonOutlet.layer.cornerRadius = cell.minusButtonOutlet.frame.size.width/2
-        cell.minusButtonOutlet.clipsToBounds = true
+        cell.layer.cornerRadius = 15
+        cell.plusButtonLabel.layer.cornerRadius = cell.plusButtonLabel.frame.size.width/2
+        cell.plusButtonLabel.clipsToBounds = true
+        cell.minusButtonLabel.layer.cornerRadius = cell.minusButtonLabel.frame.size.width/2
+        cell.minusButtonLabel.clipsToBounds = true
         return cell
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        tableView.contentInset = UIEdgeInsets(top: 30, left: 0, bottom: 0, right: 0)
         return 200
     }
 }

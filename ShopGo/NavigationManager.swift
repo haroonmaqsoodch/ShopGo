@@ -16,6 +16,7 @@ enum AppScreen {
     case Home
     case MyProfile
     case OTP
+    case CartScreen
     
     var viewControllerIdentifier: String {
         switch self {
@@ -35,6 +36,8 @@ enum AppScreen {
             return "MyprofileViewController"
         case .OTP:
             return "OTPViewController"
+        case .CartScreen:
+            return "CartScreenViewController"
         }
     }
 }
@@ -45,7 +48,7 @@ class NavigationManager {
         let destinationViewController: UIViewController
         
         switch screen {
-        case .LoginSignup, .Onboarding, .CreateAccount, .Home, .Login, .MyProfile, .OTP, .Terms:
+        case .LoginSignup, .Onboarding, .CreateAccount, .Home, .Login, .MyProfile, .OTP, .Terms, .CartScreen:
             let storyboard = UIStoryboard(name: storyboardName, bundle: nil)
             destinationViewController = storyboard.instantiateViewController(withIdentifier: screen.viewControllerIdentifier)
         }
