@@ -206,15 +206,23 @@
 		2C7E155B2A72839100ABF8D4 /* HomeScreen */ = {
 			isa = PBXGroup;
 			children = (
+				412DDD5A2A8956F8002CB3F5 /* TabBar */,
 				2C7E155E2A72840400ABF8D4 /* HomeScreenTopPartStoryboard.storyboard */,
 				2C7E155C2A7283D900ABF8D4 /* HomeViewController.swift */,
+				41FD5C612A8416540087544C /* TestCartViewController.swift */,
+				4131D2F92A82B7FB00815104 /* TestCart.storyboard */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		412DDD5A2A8956F8002CB3F5 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
 				412DDD582A8926CC002CB3F5 /* TabBar+extension.swift */,
 				41FD5C5F2A82E7AE0087544C /* CustomTabrBar.swift */,
 				41FD5C632A8418560087544C /* FloatingCartButton.swift */,
-				4131D2F92A82B7FB00815104 /* TestCart.storyboard */,
-				41FD5C612A8416540087544C /* TestCartViewController.swift */,
 			);
-			path = HomeScreen;
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 		88355F2B2A6E9742004A96A3 /* CartAnimationFiles */ = {
