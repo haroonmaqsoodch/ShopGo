@@ -34,4 +34,10 @@ class WishListViewController: UIViewController {
     
     @IBAction func ellipsisButton(_ sender: Any) {
     }
+    
+    @IBAction func searchButton(_ sender: Any) {
+    }
+    
+    @IBAction func backButton(_ sender: Any) {
+    }
 }
