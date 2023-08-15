@@ -8,11 +8,14 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-
+    
+    let cartfloatingButton = FloatingCart().cartfloatingButton
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        tabBarSetup()
     }
-
+    
     @IBAction func trendingButtonTapped(_ sender: Any) {
     }
     

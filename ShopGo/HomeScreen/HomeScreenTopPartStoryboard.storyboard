@@ -130,6 +130,9 @@
                             <constraint firstItem="hdt-Bw-bYr" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="17" id="vSu-y1-UjC"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" selectedImage="house.fill" id="HLv-te-sBR">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                    </tabBarItem>
                     <navigationItem key="navigationItem" title="Shop Go" id="kYt-Pn-2sS">
                         <barButtonItem key="leftBarButtonItem" image="line.3.horizontal" catalog="system" id="TXA-qz-wwy">
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -147,7 +150,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1142.7906976744187" y="-149.35622317596568"/>
+            <point key="canvasLocation" x="-368" y="623"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="YmU-1A-nfI">
@@ -163,19 +166,104 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="JXH-Fg-XHk"/>
+                        <segue destination="amS-Eh-70c" kind="relationship" relationship="rootViewController" id="JXH-Fg-XHk"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WTc-Zy-fUT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="301" y="-147"/>
         </scene>
+        <!--Custom Tab Bar-->
+        <scene sceneID="hl3-1b-sOg">
+            <objects>
+                <tabBarController storyboardIdentifier="CustomTabBar" automaticallyAdjustsScrollViewInsets="NO" id="amS-Eh-70c" customClass="CustomTabBar" customModule="ShopGo" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="JQf-2D-cDx"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="P7U-uG-QRk">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <rect key="contentStretch" x="0.0" y="0.25" width="1" height="1"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="viewControllers" id="u5r-W3-dxr"/>
+                        <segue destination="eic-eg-4iq" kind="relationship" relationship="viewControllers" id="HZJ-jf-PRs"/>
+                        <segue destination="31Y-38-UFE" kind="relationship" relationship="viewControllers" id="ELy-FM-8mA"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HEs-fa-zyD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1142.0289855072465" y="-150"/>
+        </scene>
+        <!--TestCartViewController-->
+        <scene sceneID="wWQ-5z-b6T">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TestCart" referencedIdentifier="TestCartViewController" id="bmj-O9-Fsz" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="7N2-vI-5gE"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s85-Zf-VqV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1142" y="1105"/>
+        </scene>
+        <!--CreateMyProfileViewController-->
+        <scene sceneID="7Hk-Jh-upm">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ProfileStoryBoard" referencedIdentifier="CreateMyProfileViewController" id="pz9-ml-dM0" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="XB4-Nr-1GC"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ryA-NQ-XNv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2561" y="1105"/>
+        </scene>
+        <!--Cart-->
+        <scene sceneID="t0L-MQ-64R">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eic-eg-4iq" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Cart" image="cart" catalog="system" selectedImage="cart.fill" id="wXB-2K-sqS"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cnq-Df-N29">
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bmj-O9-Fsz" kind="relationship" relationship="rootViewController" id="18a-4C-DFQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mDS-1f-Qm5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1142" y="623"/>
+        </scene>
+        <!--My profile-->
+        <scene sceneID="tWP-Mr-zw7">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="31Y-38-UFE" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="My profile" image="person" catalog="system" selectedImage="person.fill" id="5Jv-g5-ucm"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HBh-ns-ajP">
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="pz9-ml-dM0" kind="relationship" relationship="rootViewController" id="sx5-Hb-hDq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T62-g1-zJL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2562" y="623"/>
+        </scene>
     </scenes>
     <resources>
         <image name="camera" catalog="system" width="128" height="93"/>
+        <image name="cart" catalog="system" width="128" height="102"/>
+        <image name="cart.fill" catalog="system" width="128" height="102"/>
         <image name="childrenImage" width="37" height="45"/>
+        <image name="house" catalog="system" width="128" height="104"/>
+        <image name="house.fill" catalog="system" width="128" height="104"/>
         <image name="line.3.horizontal" catalog="system" width="128" height="65"/>
         <image name="men" width="37" height="42"/>
+        <image name="person" catalog="system" width="128" height="121"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="rocket" width="37" height="37"/>
         <image name="women" width="37" height="58"/>
         <systemColor name="systemGray6Color">
