@@ -29,7 +29,7 @@ extension WishListViewController: UICollectionViewDelegate, UICollectionViewData
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        return UIEdgeInsets(top: 80, left: 25, bottom: 0, right: 25)
+        return UIEdgeInsets(top: 20, left: 25, bottom: 0, right: 25)
     }
     
     func setUpWishListButton(){
@@ -37,5 +37,3 @@ extension WishListViewController: UICollectionViewDelegate, UICollectionViewData
         ellipsisButtonOutlet.transform = CGAffineTransform(rotationAngle: CGFloat.pi/2)
     }
 }
-
-

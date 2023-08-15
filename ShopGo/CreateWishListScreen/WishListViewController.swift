@@ -26,7 +26,8 @@ class WishListViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var numberOfItemLabel: UILabel!
     @IBOutlet weak var ellipsisButtonOutlet: UIButton!
-    
+    @IBOutlet weak var SearchButton: UIBarButtonItem!
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpWishListButton()
