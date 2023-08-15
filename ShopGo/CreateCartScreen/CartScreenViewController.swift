@@ -17,7 +17,7 @@ class CartScreenViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.register(UINib(nibName: "XibCellView", bundle: nil), forCellReuseIdentifier: "TableViewXibCell")
+        tableView.register(UINib(nibName: "TableXibCellView", bundle: nil), forCellReuseIdentifier: "TableViewXibCell")
     }
     
     @IBAction func continueButton(_ sender: Any) {

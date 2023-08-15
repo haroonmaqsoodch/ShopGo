@@ -49,7 +49,7 @@
 		C48864042A7C5955003C26AB /* CreateProfile+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48864032A7C5955003C26AB /* CreateProfile+extension.swift */; };
 		C4BE126A2A802DD1000A8BF2 /* CartScreenStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4BE12692A802DD1000A8BF2 /* CartScreenStoryboard.storyboard */; };
 		C4BE12AA2A80F36D000A8BF2 /* CartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BE12A92A80F36D000A8BF2 /* CartScreenViewController.swift */; };
-		C4BE13722A8177B7000A8BF2 /* XibCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4BE13712A8177B7000A8BF2 /* XibCellView.xib */; };
+		C4BE13722A8177B7000A8BF2 /* TableXibCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4BE13712A8177B7000A8BF2 /* TableXibCellView.xib */; };
 		C4BE13742A8178F7000A8BF2 /* CartScreenExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BE13732A8178F7000A8BF2 /* CartScreenExtension.swift */; };
 /* End PBXBuildFile section */
 
@@ -98,7 +98,7 @@
 		C48864032A7C5955003C26AB /* CreateProfile+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CreateProfile+extension.swift"; sourceTree = "<group>"; };
 		C4BE12692A802DD1000A8BF2 /* CartScreenStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CartScreenStoryboard.storyboard; sourceTree = "<group>"; };
 		C4BE12A92A80F36D000A8BF2 /* CartScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartScreenViewController.swift; sourceTree = "<group>"; };
-		C4BE13712A8177B7000A8BF2 /* XibCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibCellView.xib; sourceTree = "<group>"; };
+		C4BE13712A8177B7000A8BF2 /* TableXibCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableXibCellView.xib; sourceTree = "<group>"; };
 		C4BE13732A8178F7000A8BF2 /* CartScreenExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartScreenExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -272,7 +272,7 @@
 				C4BE12692A802DD1000A8BF2 /* CartScreenStoryboard.storyboard */,
 				C4071A582A87CFBB0040387B /* TableViewXibCell.swift */,
 				C4BE13732A8178F7000A8BF2 /* CartScreenExtension.swift */,
-				C4BE13712A8177B7000A8BF2 /* XibCellView.xib */,
+				C4BE13712A8177B7000A8BF2 /* TableXibCellView.xib */,
 			);
 			path = CreateCartScreen;
 			sourceTree = "<group>";
@@ -335,7 +335,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4BE13722A8177B7000A8BF2 /* XibCellView.xib in Resources */,
+				C4BE13722A8177B7000A8BF2 /* TableXibCellView.xib in Resources */,
 				8CDB154F2A75C99D007D7F7B /* LoginSignupStoryboard.storyboard in Resources */,
 				C4BE126A2A802DD1000A8BF2 /* CartScreenStoryboard.storyboard in Resources */,
 				8C935B862A7288F500162847 /* CreateAccount.storyboard in Resources */,
